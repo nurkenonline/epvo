@@ -1,3 +1,7 @@
+---
+description: TFW Handoff — executor onboarding, implementation, RF, coordinator review
+---
+
 # TFW Handoff — Task Execution by New Agent
 
 > **Roles:** Coordinator (hands off) → Executor (receives, questions, implements) → Coordinator (reviews)
@@ -16,11 +20,12 @@ When starting as executor, load in order:
 1. `AGENTS.md` — agent instructions
 2. `.tfw/conventions.md` — project conventions
 3. `.tfw/glossary.md` — terminology
-4. **Master HL** for the task — understand vision, design philosophy, architecture decisions
-5. **Phase HL** (if multi-phase) — phase-specific scope and context
-6. **TS file** for the task — exact scope, DoD, constraints
-7. Related HL/TS/RF files referenced in the task
-8. Relevant code files listed in TS
+4. `KNOWLEDGE.md` — architecture, decisions, legacy (if exists)
+5. **Master HL** for the task — understand vision, design philosophy, architecture decisions
+6. **Phase HL** (if multi-phase) — phase-specific scope and context
+7. **TS file** for the task — exact scope, DoD, constraints
+8. Related HL/TS/RF files referenced in the task
+9. Relevant code files listed in TS
 
 ## Phase 1: Executor Onboarding
 
@@ -63,7 +68,6 @@ When starting as executor, load in order:
 9. **Run tests** — as specified in TS verification section
 10. **Build gate** — run build/compile command from TS verification section.
     If build fails → fix BEFORE writing RF. Never write RF with failing build.
-11. **Update STEPS.md** — Summary lines for each significant milestone
 
 ## Phase 3: Write RF
 
@@ -134,7 +138,6 @@ After review, coordinator MUST:
     - **❌ REJECT** — fundamental issues → back to HL/TS revision
 
 16. **Update project task board** — final status
-17. **Update STEPS.md** — completion Summary
 
 ## Multi-Phase Task Flow
 

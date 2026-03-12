@@ -13,6 +13,7 @@ tfw:
     rf: .tfw/templates/RF.md
     onb: .tfw/templates/ONB.md
     review: .tfw/templates/REVIEW.md
+    knowledge: .tfw/templates/KNOWLEDGE.md
 
 build:
   lint: echo "configure your lint command"
