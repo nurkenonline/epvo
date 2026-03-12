@@ -1,0 +1,20 @@
+project:
+  name: epvo-data-transfer
+  repo: local/epvo
+  branch: main
+
+tfw:
+  task_prefix: TFW          # Short prefix for task IDs (e.g., PROJ, APP, SVC)
+  id_format: "{prefix}-{seq}"
+  initial_seq: 1
+  templates:
+    hl: .tfw/templates/HL.md
+    ts: .tfw/templates/TS.md
+    rf: .tfw/templates/RF.md
+    onb: .tfw/templates/ONB.md
+    review: .tfw/templates/REVIEW.md
+
+build:
+  lint: echo "configure your lint command"
+  test: echo "configure your test command"
+  verify: echo "configure your verify command"
