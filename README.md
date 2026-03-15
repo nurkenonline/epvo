@@ -33,18 +33,17 @@
 
 ## Быстрый старт
 
-1. Прочитать `AGENTS.md` → `STEPS.md` → `TASK.md`
-2. Прочитать `.tfw/conventions.md` и `.tfw/glossary.md`
-3. Изучить RF-файлы каталога сущностей в `tasks/TFW-1__entity_catalog/`
-4. Начать с планирования задачи через `.tfw/workflows/plan.md`
+1. Прочитать `AGENTS.md` → `.tfw/conventions.md` → `KNOWLEDGE.md`
+2. Изучить RF-файлы каталога сущностей в `tasks/TFW-1__entity_catalog/`
+3. Начать с планирования задачи через `/tfw-plan`
 
 ## Методология
 
 Проект ведётся по **Trace-First Workflow (TFW v3)**:
 - Все решения фиксируются в трассируемых артефактах
-- Каждый ответ агента заканчивается строкой Summary
+- Трассировка (Trace Discipline): RF файлы + Task Board = память проекта
 - Артефакты: `HL__` (контекст), `TS__` (задачи), `ONB__` (онбординг), `RF__` (результаты), `REVIEW__` (ревью)
-- Прогресс: `STEPS.md`
+- Реестр базы знаний: `KNOWLEDGE.md`
 - Технический долг: `TECH_DEBT.md`
 - Ядро TFW: `.tfw/` (конвенции, шаблоны, workflow)
 
@@ -53,28 +52,26 @@
 ```
 ЕПВО/
 ├── AGENTS.md           # Правила ИИ-агента
-├── AI_ENTRY_POINT.md   # Протокол инициации
-├── README.md           # Этот файл
-├── TASK.md             # Границы, DoD, риски
-├── STEPS.md            # Журнал прогресса
+├── README.md           # Этот файл + Task Board
+├── KNOWLEDGE.md        # База знаний проекта
 ├── TECH_DEBT.md        # Реестр технического долга
 ├── .tfw/               # Ядро TFW v3 (tool-agnostic)
 │   ├── README.md       # Философия TFW
 │   ├── conventions.md  # Конвенции
 │   ├── glossary.md     # Глоссарий
 │   ├── PROJECT_CONFIG.yaml
-│   ├── templates/      # HL, TS, RF, ONB, REVIEW шаблоны
-│   ├── workflows/      # plan, handoff, resume
+│   ├── templates/      # HL, TS, RF, ONB, REVIEW, KNOWLEDGE шаблоны
+│   ├── workflows/      # plan, handoff, resume, docs
 │   └── adapters/       # Адаптеры для IDE
 ├── .agent/             # Antigravity адаптер
 │   ├── rules/tfw.md
-│   └── workflows/      # tfw-plan, tfw-handoff, tfw-resume
+│   └── workflows/      # tfw-plan, tfw-handoff, tfw-resume, tfw-docs
 ├── tasks/              # Артефакты задач
 │   ├── TFW-1__entity_catalog/
 │   ├── TFW-2__api_endpoints/
 │   ├── TFW-4__gap_decomposition/
-│   └── HL__open_questions.md
-└── init/               # Исходные файлы методологии TFW
+│   └── TFW-5__student_orders/
+└── instructions/       # Исходные файлы инструкций
 ```
 
 ## Task Board
@@ -83,7 +80,9 @@
 |----|------|--------|----|----| --- |----| --- |
 | TFW-1 | Entity Catalog (90 entities) | ✅ DONE | ✅ | ✅ | — | ✅ | — |
 | TFW-2 | API Endpoint Documentation | ✅ DONE | ✅ | ✅ | ✅ | ✅ | — |
-| TFW-4 | Gap Analysis Decomposition & esuvoapi Code Analysis | 🔵 HL | 🔵 | — | — | — | — |
+| TFW-4 | Gap Analysis Decomposition (5 phases A–E) | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [TFW-5](tasks/TFW-5__student_orders/) | Реестр приказов по контингенту студентов | ✅ DONE | ✅ | ✅ | — | ✅ | ✅ |
+| [TFW-6](tasks/TFW-6__graduate_business_logic/) | Бизнес-логика перевода в статус «Выпускник» | ✅ DONE | ✅ | ✅ | — | ✅ | ✅ |
 
 > Statuses: ⬜ TODO → 🔵 HL → 🟡 TS → 🟠 ONB → 🟢 RF → 🔍 REV → ✅ DONE | ❌ BLOCKED
 

@@ -1,0 +1,1055 @@
+[
+  {
+    "id": 204,
+    "nameRu": "перевод в зарубежный ВУЗ",
+    "nameKz": "шет елдік ЖОО-на ауысу",
+    "nameEn": "transfer to foreign university",
+    "updateDate": "2020-09-21T12:06:29.141599",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 205,
+    "nameRu": "В связи со смертью",
+    "nameKz": "Қайтыс болуына байланысты",
+    "nameEn": "In relation to the deaths",
+    "updateDate": "2020-09-21T12:06:29.471532",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 206,
+    "nameRu": "за нарушение правил внутреннего распорядка",
+    "nameKz": "ішкі тәртіп ережелерін бұзғаны үшін",
+    "nameEn": "for violation of internal regulations",
+    "updateDate": "2020-09-21T12:06:29.80898",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 207,
+    "nameRu": "за неудовлетворительную оценку на государственном экзамене",
+    "nameKz": "мемлекеттік емтиханда қанағаттанарлықсыз баға алғаны үшін",
+    "nameEn": "for unsatisfactory mark in the state exam",
+    "updateDate": "2020-09-21T12:06:30.138702",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 208,
+    "nameRu": "за неудовлетворительную оценку на защите выпускной работы",
+    "nameKz": "бітіру жұмысын қорғауда қанағаттанарлықсыз баға алғаны үшін",
+    "nameEn": "for unsatisfactory mark at the defence of graduation work",
+    "updateDate": "2020-09-21T12:06:30.4675",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 209,
+    "nameRu": "за неявку на защиту выпускной работы",
+    "nameKz": "бітіру жұмысын қорғауға келмегені үшін",
+    "nameEn": "for failing to attend the defence of graduation work",
+    "updateDate": "2020-09-21T12:06:30.796839",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 210,
+    "nameRu": "за неявку на сдачу государственных экзаменов",
+    "nameKz": "мемлекеттік емтихандарды тапсыруға келмегені үшін",
+    "nameEn": "for failing to attend the state exams",
+    "updateDate": "2020-09-21T12:06:31.128909",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 175,
+    "nameRu": "Специалист",
+    "nameKz": "Специалист",
+    "nameEn": "Specialist",
+    "updateDate": "2020-09-21T12:06:34.669803",
+    "orderType": 7,
+    "is_show": 1
+  },
+  {
+    "id": 70,
+    "nameRu": "О командировании за рубеж",
+    "nameKz": "О командировании за рубеж",
+    "nameEn": "О командировании за рубеж",
+    "updateDate": "2020-09-21T12:06:40.821844",
+    "orderType": 21,
+    "is_show": 1
+  },
+  {
+    "id": 1,
+    "nameRu": "выпуск",
+    "nameKz": "шығарылу",
+    "nameEn": "release",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 2,
+    "nameRu": "из-за финансовых затруднений",
+    "nameKz": "қаржылық қиындықтар себебінен",
+    "nameEn": "because of financial difficulties",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 3,
+    "nameRu": "за неуспеваемость",
+    "nameKz": "университетпен байланыс үзгені және себепсіз  40 сағаттан астам сабаққа қатыспағаны үшін",
+    "nameEn": "for underachievement",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 5,
+    "nameRu": "призван в ряды ВС",
+    "nameKz": "ҚК қатарына шақырылды",
+    "nameEn": "drafted into the ranks of the Armed Forces",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 0
+  },
+  {
+    "id": 6,
+    "nameRu": "по собственному желанию",
+    "nameKz": "өз еркімен",
+    "nameEn": "on their own",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 7,
+    "nameRu": "по состоянию здоровья",
+    "nameKz": "денсаулығына байланысты",
+    "nameEn": "for health",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 0
+  },
+  {
+    "id": 8,
+    "nameRu": "за нарушение условий договора",
+    "nameKz": "келісім-шарт талаптарын бұзғаны үшін",
+    "nameEn": "for breach of contract",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 9,
+    "nameRu": "другие причины",
+    "nameKz": "басқа себептер",
+    "nameEn": "other causes",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 10,
+    "nameRu": "прием (все уровни образования)",
+    "nameKz": "қабылдау (білім берудің барлық деңгейлері)",
+    "nameEn": "reception (all levels of education)",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 11,
+    "nameRu": "Перевод из зарубежного ВУЗа",
+    "nameKz": "Шет елдік ЖОО-дан ауысу",
+    "nameEn": "transfer from foreign university",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 12,
+    "nameRu": "возвращение из рядов ВС РК",
+    "nameKz": "ҚР ҚК катарынан келуі",
+    "nameEn": "the return of the Armed Forces of the series",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 0
+  },
+  {
+    "id": 13,
+    "nameRu": "восстановление",
+    "nameKz": "қалпына келтіру",
+    "nameEn": "recovery",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 14,
+    "nameRu": "другие причины",
+    "nameKz": "басқа себептер",
+    "nameEn": "other causes",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 15,
+    "nameRu": "в связи с призывом на воинскую службу",
+    "nameKz": "әскери қызметке шақырылуына байланысты",
+    "nameEn": "in connection with an appeal on military service",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 6,
+    "is_show": 1
+  },
+  {
+    "id": 16,
+    "nameRu": "по состоянию здоровья",
+    "nameKz": "денсаулық жағдайына байланысты",
+    "nameEn": "по состоянию здоровья",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 6,
+    "is_show": 1
+  },
+  {
+    "id": 17,
+    "nameRu": "при рождении/усыновлении/удочерении ребенка",
+    "nameKz": "бала күтіміне байланысты",
+    "nameEn": "at the child's birth/adoption",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 6,
+    "is_show": 1
+  },
+  {
+    "id": 18,
+    "nameRu": "повторная сдача государственного экзамена",
+    "nameKz": "мемлекеттік емтиханды қайта өту",
+    "nameEn": "repeated pass of state exam",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 19,
+    "is_show": 0
+  },
+  {
+    "id": 19,
+    "nameRu": "повторная защита дипломной работы",
+    "nameKz": "дипломдық жобаны қайта қорғау",
+    "nameEn": "repeated thesis defense",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 19,
+    "is_show": 1
+  },
+  {
+    "id": 23,
+    "nameRu": "в рамках академической мобильности",
+    "nameKz": "академиялық ұтқырлық аясында",
+    "nameEn": "within the academic mobility",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 21,
+    "is_show": 1
+  },
+  {
+    "id": 24,
+    "nameRu": "с разрешением изучения дополнительных дисциплин следующего курса",
+    "nameKz": "келесі курстың қосымша пәндерін оқу рұқсатымен",
+    "nameEn": "with the permission of studying of additional disciplines of the following course",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 9,
+    "is_show": 1
+  },
+  {
+    "id": 25,
+    "nameRu": "без разрешения изучения дополнительных дисциплин следующего курса",
+    "nameKz": "келесі курстың қосымша пәндерін оқу рұқсатынсыз",
+    "nameEn": "without the permission of studying of additional disciplines of the following course",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 9,
+    "is_show": 0
+  },
+  {
+    "id": 26,
+    "nameRu": "в период летнего семестра",
+    "nameKz": "жазғы семестр кезеңінде",
+    "nameEn": "during the summer semester",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 22,
+    "is_show": 1
+  },
+  {
+    "id": 27,
+    "nameRu": "в период осеннего и/или весеннего семестров",
+    "nameKz": "кузгі және/немесе көктемгі семестр кезеңінде",
+    "nameEn": "during the fall and/or spring semester",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 22,
+    "is_show": 1
+  },
+  {
+    "id": 28,
+    "nameRu": "объявление выговора",
+    "nameKz": "сөгіс жариялау",
+    "nameEn": "announcement of reprimand",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 25,
+    "is_show": 1
+  },
+  {
+    "id": 29,
+    "nameRu": "объявление строгого выговора",
+    "nameKz": "қатаң сөгіс жариялау",
+    "nameEn": "announcement of  serious reprimand",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 25,
+    "is_show": 1
+  },
+  {
+    "id": 30,
+    "nameRu": "объявление предупреждения",
+    "nameKz": "ескертуді жариялау",
+    "nameEn": "announcement of the prevention",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 25,
+    "is_show": 1
+  },
+  {
+    "id": 31,
+    "nameRu": "объявление замечания",
+    "nameKz": "ескертпені жариялау",
+    "nameEn": "announcement of the remark",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 25,
+    "is_show": 1
+  },
+  {
+    "id": 32,
+    "nameRu": "объявление благодарности",
+    "nameKz": "алғыс жариялау",
+    "nameEn": "announcement of gratitude",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 26,
+    "is_show": 1
+  },
+  {
+    "id": 33,
+    "nameRu": "награждение грамотой/похвальным листом",
+    "nameKz": "мадақтамамен/мақтау қағазымен марапаттау",
+    "nameEn": "rewarding with a diploma/certificate of appreciation",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 26,
+    "is_show": 1
+  },
+  {
+    "id": 35,
+    "nameRu": "с одной формы обучения на другую",
+    "nameKz": "бір оқыту формасынан екіншісіне ",
+    "nameEn": "from one form of education on another",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 4,
+    "is_show": 1
+  },
+  {
+    "id": 36,
+    "nameRu": "с одного языкового отделения на другое",
+    "nameKz": "бір тіл бөлімшесінен екіншісіне",
+    "nameEn": "from one language office on another",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 4,
+    "is_show": 1
+  },
+  {
+    "id": 37,
+    "nameRu": "с курса на курс",
+    "nameKz": "курстан курсқа өту",
+    "nameEn": "from course to course",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 4,
+    "is_show": 0
+  },
+  {
+    "id": 38,
+    "nameRu": "другие причины",
+    "nameKz": "басқа себептер",
+    "nameEn": "other causes",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 4,
+    "is_show": 1
+  },
+  {
+    "id": 41,
+    "nameRu": "расторжение договора на обучение до выхода приказа о зачислении",
+    "nameKz": "оқу жөніндегі келісім шартын оқуға түсу бұйрығы шыққанға дейін бұзу",
+    "nameEn": "termination of the contract for training before the order of admission",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 42,
+    "nameRu": "условно-зачисленный, не сдавший ЕНТ/КТ",
+    "nameKz": "шартты қатысқан, ҰБТ/КТ тапсырмаған,",
+    "nameEn": "сonditionally enrolled, has not passed the UNT/CT",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 43,
+    "nameRu": "о приезде в рамках программы обмена «Двудипломное образование»",
+    "nameKz": "«Қос дипломдық білім беру» алмасу бағдарламасы аясында келу туралы",
+    "nameEn": "Arrived to training within the program of exchange «Two-degree education»",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 190,
+    "nameRu": "По окончании основного учебного периода",
+    "nameKz": "По окончании основного учебного периода",
+    "nameEn": "По окончании основного учебного периода",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 11,
+    "is_show": 0
+  },
+  {
+    "id": 44,
+    "nameRu": "завершение обучения в рамках программы обмена «Двудипломное образование»",
+    "nameKz": "«Қос дипломдық білім беру» алмасу бағдарламасы аясында оқуды бітіру",
+    "nameEn": "Completion of training within the program of exchange «Two-degree education»",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 0
+  },
+  {
+    "id": 46,
+    "nameRu": "О снятии с гранта",
+    "nameKz": "О снятии с гранта",
+    "nameEn": "Withdrawal from the grant",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 10,
+    "is_show": 1
+  },
+  {
+    "id": 47,
+    "nameRu": "О переводе на грант",
+    "nameKz": "О переводе на грант",
+    "nameEn": "On the transfer to the grant",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 10,
+    "is_show": 1
+  },
+  {
+    "id": 49,
+    "nameRu": "Об освобождении от учебных занятий",
+    "nameKz": "Об освобождении от учебных занятий",
+    "nameEn": "Об освобождении от учебных занятий",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 21,
+    "is_show": 0
+  },
+  {
+    "id": 50,
+    "nameRu": "Об освобождении от учебного процесса",
+    "nameKz": "Об освобождении от учебного процесса",
+    "nameEn": "Об освобождении от учебного процесса",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 21,
+    "is_show": 1
+  },
+  {
+    "id": 51,
+    "nameRu": "о приезде в рамках обмена между ВУЗами-партнерами",
+    "nameKz": "Серіктес жоғары оқу орындары арасындағы алмасуға келу туралы",
+    "nameEn": "On the arrival in the exchange between partner universities",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 0
+  },
+  {
+    "id": 52,
+    "nameRu": "завершение обучения в рамках обмена между ВУЗами-партнерами",
+    "nameKz": "Серіктес университеттер арасында алмасу бағдарламасы бойынша оқуды аяқтау",
+    "nameEn": "Completion of training in the exchange between partner universities",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 0
+  },
+  {
+    "id": 60,
+    "nameRu": "за невыход из академического отпуска",
+    "nameKz": "за невыход из академического отпуска",
+    "nameEn": "за невыход из академического отпуска",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 61,
+    "nameRu": "за нарушение учебной дисциплины",
+    "nameKz": "за нарушение учебной дисциплины",
+    "nameEn": "за нарушение учебной дисциплины",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 62,
+    "nameRu": "повторная защита магистерской диссертации",
+    "nameKz": "повторная защита магистерской диссертации",
+    "nameEn": "повторная защита магистерской диссертации",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 19,
+    "is_show": 0
+  },
+  {
+    "id": 63,
+    "nameRu": "ГЭ и дипломная работа",
+    "nameKz": "ГЭ и дипломная работа",
+    "nameEn": "ГЭ и дипломная работа",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 19,
+    "is_show": 1
+  },
+  {
+    "id": 64,
+    "nameRu": "ГЭ и магистерская диссертация",
+    "nameKz": "ГЭ и магистерская диссертация",
+    "nameEn": "ГЭ и магистерская диссертация",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 19,
+    "is_show": 1
+  },
+  {
+    "id": 66,
+    "nameRu": "премировать",
+    "nameKz": "премировать",
+    "nameEn": "премировать",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 26,
+    "is_show": 1
+  },
+  {
+    "id": 80,
+    "nameRu": "с одного направления на другое",
+    "nameKz": "с одного направления на другое",
+    "nameEn": "с одного направления на другое",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 4,
+    "is_show": 1
+  },
+  {
+    "id": 101,
+    "nameRu": "о приезде в рамках внутренней академической мобильности",
+    "nameKz": "ішкі академиялық мобильділік аясында келетіні туралы",
+    "nameEn": "about the internal arrival within academic mobility",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 0
+  },
+  {
+    "id": 102,
+    "nameRu": "о приезде в рамках внешней академической мобильности",
+    "nameKz": "сыртқы академиялық мобильділік аясында келетіні туралы",
+    "nameEn": "about the external arrival within academic mobility",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 0
+  },
+  {
+    "id": 103,
+    "nameRu": "Перевод из отечественного ВУЗа",
+    "nameKz": "Отандық ЖОО-дан ауысу",
+    "nameEn": "transfer from domestic university",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 104,
+    "nameRu": "Прием (бакалавриат)",
+    "nameKz": "Прием (бакалавриат)",
+    "nameEn": "Прием (бакалавриат)",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 105,
+    "nameRu": "Прием (магистратура)",
+    "nameKz": "Прием (магистратура)",
+    "nameEn": "Прием (магистратура)",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 106,
+    "nameRu": "Прием (докторантура)",
+    "nameKz": "Прием (докторантура)",
+    "nameEn": "Прием (докторантура)",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 48,
+    "nameRu": "О командировании внутри страны",
+    "nameKz": "О командировании внутри страны",
+    "nameEn": "О командировании внутри страны",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 21,
+    "is_show": 1
+  },
+  {
+    "id": 160,
+    "nameRu": "Магистратура",
+    "nameKz": "Магистратура",
+    "nameEn": "Магистратура",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 28,
+    "is_show": 1
+  },
+  {
+    "id": 161,
+    "nameRu": "Докторантура",
+    "nameKz": "Докторантура",
+    "nameEn": "Докторантура",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 28,
+    "is_show": 1
+  },
+  {
+    "id": 170,
+    "nameRu": "Бакалавриат",
+    "nameKz": "Бакалавриат",
+    "nameEn": "Бакалавриат",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 7,
+    "is_show": 1
+  },
+  {
+    "id": 171,
+    "nameRu": "Магистратура",
+    "nameKz": "Магистратура",
+    "nameEn": "Магистратура",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 7,
+    "is_show": 1
+  },
+  {
+    "id": 172,
+    "nameRu": "Докторантура",
+    "nameKz": "Докторантура",
+    "nameEn": "Докторантура",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 7,
+    "is_show": 1
+  },
+  {
+    "id": 173,
+    "nameRu": "Резидентура",
+    "nameKz": "Резидентура",
+    "nameEn": "Резидентура",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 7,
+    "is_show": 1
+  },
+  {
+    "id": 174,
+    "nameRu": "Интернатура",
+    "nameKz": "Интернатура",
+    "nameEn": "Интернатура",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 7,
+    "is_show": 1
+  },
+  {
+    "id": 180,
+    "nameRu": "Магистрантами",
+    "nameKz": "Магистрантами",
+    "nameEn": "Магистрантами",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 39,
+    "is_show": 1
+  },
+  {
+    "id": 181,
+    "nameRu": "Докторантами",
+    "nameKz": "Докторантами",
+    "nameEn": "Докторантами",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 39,
+    "is_show": 1
+  },
+  {
+    "id": 191,
+    "nameRu": "По окончании дополнительного учебного периода",
+    "nameKz": "По окончании дополнительного учебного периода",
+    "nameEn": "По окончании дополнительного учебного периода",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 11,
+    "is_show": 0
+  },
+  {
+    "id": 201,
+    "nameRu": "завершение внутренней академической мобильности",
+    "nameKz": "ішкі академиялық ұтқырлықты аяқтау",
+    "nameEn": "completion of internal academic mobility",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 0
+  },
+  {
+    "id": 202,
+    "nameRu": "завершение внешней академической мобильности",
+    "nameKz": "сыртқы академиялық ұтқырлықты аяқтау",
+    "nameEn": "completion of external academic mobility",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 0
+  },
+  {
+    "id": 203,
+    "nameRu": "за нарушение принципов академической честности",
+    "nameKz": "академиялық адалдық қағидаларын бұзғаны үшін",
+    "nameEn": "for violation of the academic honesty principles",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 301,
+    "nameRu": "выезд внутренний",
+    "nameKz": "выезд внутренний",
+    "nameEn": "leaving the inner",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 30,
+    "is_show": 1
+  },
+  {
+    "id": 302,
+    "nameRu": "выезд внешний",
+    "nameKz": "выезд внешний",
+    "nameEn": "leaving the outer",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 30,
+    "is_show": 1
+  },
+  {
+    "id": 401,
+    "nameRu": "возвращение по внутренней академической мобильности",
+    "nameKz": "возвращение по внутренней академической мобильности",
+    "nameEn": "internal academic mobility return",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 31,
+    "is_show": 1
+  },
+  {
+    "id": 402,
+    "nameRu": "возвращение по внешней академической мобильности",
+    "nameKz": "возвращение по внешней академической мобильности",
+    "nameEn": "foreign academic mobility return",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 31,
+    "is_show": 1
+  },
+  {
+    "id": 403,
+    "nameRu": "Отказ",
+    "nameKz": "Отказ",
+    "nameEn": "Reject",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 31,
+    "is_show": 1
+  },
+  {
+    "id": 501,
+    "nameRu": "ГЭ и докторская диссертация",
+    "nameKz": "МЕ және докторлық диссертация",
+    "nameEn": "SE and doctoral thesis",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 19,
+    "is_show": 0
+  },
+  {
+    "id": 601,
+    "nameRu": "Бакалавриат",
+    "nameKz": "Бакалавриат",
+    "nameEn": "Bachelor's program",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 34,
+    "is_show": 1
+  },
+  {
+    "id": 602,
+    "nameRu": "Магистратура",
+    "nameKz": "Магистратура",
+    "nameEn": "Master's Courses",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 34,
+    "is_show": 1
+  },
+  {
+    "id": 603,
+    "nameRu": "Интернатура",
+    "nameKz": "Интернатура",
+    "nameEn": "Internship",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 34,
+    "is_show": 0
+  },
+  {
+    "id": 604,
+    "nameRu": "Резидентура",
+    "nameKz": "Резидентура",
+    "nameEn": "Residency",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 34,
+    "is_show": 0
+  },
+  {
+    "id": 605,
+    "nameRu": "Докторантура",
+    "nameKz": "Докторантура",
+    "nameEn": "Doctoral studies",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 34,
+    "is_show": 1
+  },
+  {
+    "id": 606,
+    "nameRu": "Специалист",
+    "nameKz": "Специалист",
+    "nameEn": "Specialist",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 34,
+    "is_show": 0
+  },
+  {
+    "id": 701,
+    "nameRu": "Магистратура",
+    "nameKz": "Магистратура",
+    "nameEn": "Master's Courses",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 40,
+    "is_show": 1
+  },
+  {
+    "id": 702,
+    "nameRu": "Докторантура",
+    "nameKz": "Докторантура",
+    "nameEn": "Doctoral studies",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 40,
+    "is_show": 1
+  },
+  {
+    "id": 801,
+    "nameRu": "Завершение",
+    "nameKz": "Завершение",
+    "nameEn": "Completion",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 33,
+    "is_show": 1
+  },
+  {
+    "id": 802,
+    "nameRu": "Отказ",
+    "nameKz": "Отказ",
+    "nameEn": "Reject",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 33,
+    "is_show": 1
+  },
+  {
+    "id": 901,
+    "nameRu": "Прием на подготовительное отделение",
+    "nameKz": "Прием на подготовительное отделение",
+    "nameEn": "Прием на подготовительное отделение",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 48,
+    "is_show": 1
+  },
+  {
+    "id": 902,
+    "nameRu": "Прием на подготовительное отделение из отечественного вуза",
+    "nameKz": "Прием на подготовительное отделение из отечественного вуза",
+    "nameEn": "Прием на подготовительное отделение из отечественного вуза",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 48,
+    "is_show": 1
+  },
+  {
+    "id": 903,
+    "nameRu": "Другие причины",
+    "nameKz": "Другие причины",
+    "nameEn": "Другие причины",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 48,
+    "is_show": 1
+  },
+  {
+    "id": 1001,
+    "nameRu": "Другие причины",
+    "nameKz": "Другие причины",
+    "nameEn": "Другие причины",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 49,
+    "is_show": 1
+  },
+  {
+    "id": 1002,
+    "nameRu": "За нарушение принципов академической честности",
+    "nameKz": "За нарушение принципов академической честности",
+    "nameEn": "За нарушение принципов академической честности",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 49,
+    "is_show": 1
+  },
+  {
+    "id": 1003,
+    "nameRu": "За нарушение условий договора",
+    "nameKz": "За нарушение условий договора",
+    "nameEn": "За нарушение условий договора",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 49,
+    "is_show": 1
+  },
+  {
+    "id": 1004,
+    "nameRu": "За неуспеваемость",
+    "nameKz": "За неуспеваемость",
+    "nameEn": "За неуспеваемость",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 49,
+    "is_show": 1
+  },
+  {
+    "id": 1005,
+    "nameRu": "По собственному желанию",
+    "nameKz": "По собственному желанию",
+    "nameEn": "По собственному желанию",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 49,
+    "is_show": 1
+  },
+  {
+    "id": 1006,
+    "nameRu": "В связи со смертью",
+    "nameKz": "Қайтыс болуына байланысты",
+    "nameEn": "In relation to the deaths",
+    "updateDate": "2020-09-21T12:06:57.488486",
+    "orderType": 49,
+    "is_show": 1
+  },
+  {
+    "id": 110,
+    "nameRu": "Зимний прием (докторантура)",
+    "nameKz": "Қысқы қабылдау (докторантура)",
+    "nameEn": "Winter admission (PhD)",
+    "updateDate": "2023-09-19T14:56:45.965624",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 109,
+    "nameRu": "Зимний прием (магистратура)",
+    "nameKz": "Қысқы қабылдау (магистратура)",
+    "nameEn": "Winter admission (Masters degree)",
+    "updateDate": "2023-09-19T15:07:10.604152",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 107,
+    "nameRu": "Прием (условно-зачисленные)",
+    "nameKz": "Қабылдау (шартты-оқуға қабылданған)",
+    "nameEn": "Admission (conditionally admitted)",
+    "updateDate": "2021-04-27T00:00:00",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 108,
+    "nameRu": "Условно-зачисленного после сдачи КТА",
+    "nameKz": "ТКТ тапсырғаннан кейін шартты оқуға қабылданған",
+    "nameEn": "Conditionally admitted after Comprehensive testing",
+    "updateDate": "2021-04-27T00:00:00",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 1007,
+    "nameRu": "За нарушение учебной дисциплины (за потерю связи)",
+    "nameKz": "За нарушение учебной дисциплины (за потерю связи)",
+    "nameEn": "For violation of academic discipline (for loss of communication)",
+    "updateDate": "2022-02-21T00:00:00",
+    "orderType": 49,
+    "is_show": 1
+  },
+  {
+    "id": 1008,
+    "nameRu": "В связи с окончанием срока обучения докторантуры",
+    "nameKz": "Докторантураның оқу мерзімі аяқталуына байланысты",
+    "nameEn": "Due to end of PhD training period",
+    "updateDate": "2023-08-07T00:00:00",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 4,
+    "nameRu": "перевод в отечественный ВУЗ",
+    "nameKz": "Отандық ЖОО-на ауысу",
+    "nameEn": "transfer to domestic university",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 3,
+    "is_show": 1
+  },
+  {
+    "id": 34,
+    "nameRu": "с одной специальности/группы образовательных программ на другую",
+    "nameKz": "бір мамандықтан/білім беру бағдарламаларының тобынан басқасына",
+    "nameEn": "from one specialty/educational programs group to another",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 4,
+    "is_show": 1
+  },
+  {
+    "id": 45,
+    "nameRu": "о смене специализации/образовательной программы",
+    "nameKz": "мамандандыруды/білім беру бағдарламасын өзгерту туралы",
+    "nameEn": "about сhanging specialization/educational program",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 4,
+    "is_show": 1
+  },
+  {
+    "id": 111,
+    "nameRu": "Перевод из отечественного вуза (Зимний прием для магистратуры)",
+    "nameKz": "Отандық жоо-дан ауыстыру (Магистратураға арналған қысқы қабылдау)",
+    "nameEn": "Transfer from domestic university (Winter admission for master students",
+    "updateDate": "2024-09-12T07:17:20.586335",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 112,
+    "nameRu": "Перевод из отечественного вуза (Зимний прием для докторантуры)",
+    "nameKz": "Отандық жоо-дан ауыстыру (Докторантураға арналған қысқы қабылдау)",
+    "nameEn": "Transfer from domestic university (Winter admission for doctoral students",
+    "updateDate": "2024-09-12T07:17:20.76147",
+    "orderType": 2,
+    "is_show": 1
+  },
+  {
+    "id": 1009,
+    "nameRu": "изменить персональные данные",
+    "nameKz": "Жеке мәліметтерді өзгерту",
+    "nameEn": "Change personal information",
+    "updateDate": "2019-01-30T17:42:56.569629",
+    "orderType": 8,
+    "is_show": 1
+  }
+]

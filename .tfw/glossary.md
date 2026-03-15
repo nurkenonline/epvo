@@ -10,6 +10,8 @@ AI works independently within the file system. Only for pre-approved scope (e.g.
 
 ## Artifact Types
 
+> Canonical rules → [conventions.md](conventions.md). Philosophy → [README.md](README.md).
+
 ### HL (High Level)
 Context, research, background, requirements. Not a task — a "map of meaning". Format: strictly follows `.tfw/templates/HL.md`. Contains: Vision, As-Is, To-Be, Phases, DoD, DoF, Principles, Dependencies, Risks.
 
@@ -58,7 +60,7 @@ A bounded unit of work within a multi-phase task. Each phase has its own HL → 
 Limits per phase calibrated for AI executor agents. Exceeding limits degrades quality. When exceeded — split the phase.
 
 ## Workflow (canonical)
-A tool-agnostic process description in `.tfw/workflows/`. Defines **what** to do, not **how**. Three canonical workflows: plan (HL→TS), handoff (ONB→execute→RF→REVIEW), resume (status matrix→next phase). Each tool maps workflows to its own format (skills, commands, rules).
+A tool-agnostic process description in `.tfw/workflows/`. Defines **what** to do, not **how**. Canonical workflows in `.tfw/workflows/`: plan (HL→TS), handoff (ONB→execute→RF), review (RF→checklist→REVIEW), resume (status matrix→next phase). Each tool maps workflows to its own format (skills, commands, rules).
 
 ## `.tfw/` Directory
 Tool-agnostic TFW core. Contains: README.md (philosophy), conventions.md, glossary.md, templates/, workflows/, PROJECT_CONFIG.yaml. One copy per project, referenced by tool-specific adapters.
@@ -76,10 +78,9 @@ A tool-specific entry point (CLAUDE.md, .cursor/rules, .agent/workflows/) that r
 
 ### Coordinator (AI)
 - Writes HL and TS
-- Reviews executor's RF output
-- Writes REVIEW files
 - Manages Task Board in README
-- Triages executor observations to TECH_DEBT.md
+- Hands off to executor for implementation
+- Hands off to reviewer for review
 
 ### Executor (AI)
 - Reads approved TS
@@ -88,6 +89,13 @@ A tool-specific entry point (CLAUDE.md, .cursor/rules, .agent/workflows/) that r
 - Makes incremental commits
 - Writes RF documenting results
 - Reports observations (tech debt, issues)
+
+### Reviewer (AI — coordinator in review mode)
+- Reads RF and TS (for DoD verification)
+- Writes REVIEW file with 9-point checklist
+- Triages executor Observations → TECH_DEBT.md
+- Updates Task Board status
+- Cannot: write code, write ONB, write RF, modify HL/TS
 
 ## Execution Engine
 The tool or process that executes TS steps. Defined in `.tfw/PROJECT_CONFIG.yaml` under `coding.engine`. Examples: IDE-native, CLI agent, hybrid. Each project configures its own engine.
@@ -100,6 +108,21 @@ Markdown table in `README.md` — single source of truth for task statuses. Upda
 
 ## PROJECT_CONFIG.yaml
 Per-project configuration file in `.tfw/`. Defines: stack, build commands, task prefix, execution engine, template paths. Used by workflows and tools to parametrize behavior.
+
+## VERSION
+Single-line file in `.tfw/` containing the current framework version in semver format (MAJOR.MINOR.PATCH). Machine-readable. Updated by `tfw-release` workflow.
+
+## CHANGELOG.md
+Structured version history in `.tfw/`. Follows Keep a Changelog format. Each version entry lists Added, Changed, Deprecated, Removed, Fixed items. Updated by `tfw-release` workflow.
+
+## RELEASE.md
+Optional project-level artifact defining release strategy (audience, triggers, version scheme, checklist). Template: `.tfw/templates/RELEASE.md`. Referenced by `tfw-release` workflow for project-specific context. Analogous to KNOWLEDGE.md — optional, but valuable for projects with versioned outputs.
+
+## tfw-release (Workflow)
+Canonical release workflow for cutting a new version. Reads RELEASE.md for project context, scopes changes, bumps version, updates CHANGELOG. Lives in `.tfw/workflows/release.md`.
+
+## tfw-update (Workflow)
+Canonical update workflow for upgrading a project's `.tfw/` from upstream starter. Reads `tfw.upstream` from `PROJECT_CONFIG.yaml` for source resolution, clones upstream into `.tfw/.upstream/` staging directory, compares versions, categorizes changes (🟢 safe / 🟡 merge / 🔴 breaking), generates update checklist, re-syncs adapter copies. Lives in `.tfw/workflows/update.md`.
 
 ---
 

@@ -9,7 +9,7 @@ This project follows **Trace-First Workflow v3**.
 - Philosophy & lifecycle: `.tfw/README.md`
 - Conventions: `.tfw/conventions.md`
 - Glossary: `.tfw/glossary.md`
-- Templates: `.tfw/templates/` (HL, TS, RF, ONB, REVIEW)
+- Templates: `.tfw/templates/` (HL, TS, RF, ONB, REVIEW, KNOWLEDGE)
 - Config: `.tfw/PROJECT_CONFIG.yaml`
 
 ## Context Loading (new session)

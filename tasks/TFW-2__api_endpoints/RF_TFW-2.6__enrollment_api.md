@@ -30,7 +30,7 @@
 
 **Пример Request:**
 ```http
-GET /grant-enrollment/findAll?year=2025&page=0&size=50&universityId=7 HTTP/1.1
+GET /grant-enrollment/findAll?year=2025&page=0&size=50&universityId=[ID_ВУЗА] HTTP/1.1
 Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 ```
 
@@ -49,7 +49,7 @@ Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
       "professionName": "Информационные технологии",
       "entScore": 115,
       "status": "APPROVED",
-      "universityId": 7,
+      "universityId": "[ID_ВУЗА]",
       "createdAt": "2025-08-10T14:30:00Z"
     }
   ],
@@ -78,7 +78,7 @@ Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 
 **Пример Request:**
 ```http
-GET /magistracy-enrollment/findAll?year=2025&page=0&size=50&universityId=7 HTTP/1.1
+GET /magistracy-enrollment/findAll?year=2025&page=0&size=50&universityId=[ID_ВУЗА] HTTP/1.1
 Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 ```
 
@@ -97,7 +97,7 @@ Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
       "professionName": "Информационные технологии (профильное)",
       "ktScore": 120,
       "status": "APPROVED",
-      "universityId": 7
+      "universityId": "[ID_ВУЗА]"
     }
   ],
   "pageable": {

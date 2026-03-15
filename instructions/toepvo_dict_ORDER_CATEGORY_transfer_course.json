@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nameRu": "По окончании основного учебного преиода",
+    "nameKz": "Негізгі академиялық кезеңнің соңында",
+    "nameEn": "At the end of the main academic period",
+    "orderCategoryId": 190,
+    "is_show": 1
+  },
+  {
+    "id": 2,
+    "nameRu": "По окончанию дополнительного учебного периода",
+    "nameKz": "Қосымша академиялық кезеңнің соңында",
+    "nameEn": "At the end of the additional academic period",
+    "orderCategoryId": 191,
+    "is_show": 1
+  }
+]

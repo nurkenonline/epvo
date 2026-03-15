@@ -20,4 +20,6 @@ No tech debt collected.
 
 ## 3. Вердикт
 **✅ APPROVE**
-Документ `RF_TFW-4.B__admissions_registries.md` утвержден и готов к передаче AI-агенту-интегратору (Executor). Исполнитель получил ответы на все блокирующие вопросы. Фаза B официально завершена.
+Документ `RF_TFW-4.B__admissions_registries.md` утвержден. Фаза B официально завершена.
+
+`tfw-docs: N/A (Phase B — no architecture changes)`

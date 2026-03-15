@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nameRu": "из за финансовых задолженностей",
+    "nameKz": "қаржылық қарыздарға байланысты",
+    "nameEn": "due to financial debts",
+    "orderCategoryId": 13,
+    "is_show": 1
+  },
+  {
+    "id": 2,
+    "nameRu": "из другого ВУЗа",
+    "nameKz": "басқа университеттен",
+    "nameEn": "from another university",
+    "orderCategoryId": 13,
+    "is_show": 1
+  },
+  {
+    "id": 3,
+    "nameRu": "академическая задолженность",
+    "nameKz": "академиялық қарыз",
+    "nameEn": "academic debt",
+    "orderCategoryId": 13,
+    "is_show": 1
+  }
+]

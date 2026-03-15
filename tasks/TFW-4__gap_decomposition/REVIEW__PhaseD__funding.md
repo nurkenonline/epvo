@@ -23,3 +23,5 @@
 ## 3. Вердикт
 **✅ APPROVE**
 Документ `RF_TFW-4.D__funding.md` утвержден и готов к передаче AI-агенту-интегратору (Executor). Фаза D официально завершена.
+
+`tfw-docs: Applied — updated TECH_DEBT.md (TD-PHASE-D-1)`

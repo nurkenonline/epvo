@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nameRu": "из частного ВУЗа",
+    "nameKz": "жеке университеттен",
+    "nameEn": "from a private university",
+    "orderCategoryId": 103,
+    "is_show": 1
+  },
+  {
+    "id": 2,
+    "nameRu": "из государственного ВУЗа",
+    "nameKz": "мемлекеттік университеттен",
+    "nameEn": "from a state university",
+    "orderCategoryId": 103,
+    "is_show": 1
+  }
+]

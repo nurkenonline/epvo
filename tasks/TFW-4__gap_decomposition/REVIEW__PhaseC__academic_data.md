@@ -23,3 +23,5 @@
 ## 3. Вердикт
 **✅ APPROVE**
 Документ `RF_TFW-4.C__academic_data.md` утвержден и готов к передаче AI-агенту-интегратору (Executor). Фаза C официально завершена.
+
+`tfw-docs: Applied — updated TECH_DEBT.md (TD-PHASE-C-1)`

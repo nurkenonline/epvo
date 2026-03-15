@@ -25,7 +25,7 @@
 > ⚠️ **Важно (из логов чата ЕПВО):** Одиночный эндпоинт `POST /org-data/save` **не работает** (возвращает 404/Not Found). Всегда используйте `/org-data/list/save` и передавайте массив объектов, даже если требуется сохранить одну запись.
 
 **Query параметры:**
-* `universityId` (integer, required): ID университета (например `7`).
+* `universityId` (integer, required): ID университета (например `[ID_ВУЗА]`).
 
 **Request Body:**
 Массив JSON-объектов. Каждый объект содержит:
@@ -34,7 +34,7 @@
 
 **Пример Request (сохранение двух факультетов):**
 ```http
-POST /org-data/list/save?universityId=7 HTTP/1.1
+POST /org-data/list/save?universityId=[ID_ВУЗА] HTTP/1.1
 Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 Content-Type: application/json
 ```

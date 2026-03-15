@@ -18,7 +18,7 @@
 #### Общие заголовки (Headers)
 * `Authorization`: Basic Auth (Base64 закодированная строка `username:password`)
 * `Content-Type`: `application/json`
-* **Query Parameter**: `universityId` (Обязателен для идентификации ОВПО, например `?universityId=7`).
+* **Query Parameter**: `universityId` (Обязателен для идентификации ОВПО, например `?universityId=[ID_ВУЗА]`).
 
 ---
 
@@ -34,7 +34,7 @@
 
 **Пример Request:**
 ```http
-GET /org-data/find-all-pageable?category=STUDY_FORM&page=0&size=100&universityId=7 HTTP/1.1
+GET /org-data/find-all-pageable?category=STUDY_FORM&page=0&size=100&universityId=[ID_ВУЗА] HTTP/1.1
 Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 ```
 
@@ -83,7 +83,7 @@ Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 
 **Пример Request:**
 ```http
-GET /org-data/find-by-id?id=1&universityId=7 HTTP/1.1
+GET /org-data/find-by-id?id=1&universityId=[ID_ВУЗА] HTTP/1.1
 Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 ```
 

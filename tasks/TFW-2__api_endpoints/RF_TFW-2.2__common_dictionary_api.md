@@ -31,7 +31,7 @@
 
 **Пример Request:**
 ```http
-GET /common-dictionary/find-all?category=COUNTRY&universityId=7 HTTP/1.1
+GET /common-dictionary/find-all?category=COUNTRY&universityId=[ID_ВУЗА] HTTP/1.1
 Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 ```
 

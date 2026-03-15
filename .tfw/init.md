@@ -26,6 +26,7 @@ project:
   branch: main
 
 tfw:
+  upstream: "https://github.com/saubakirov/trace-first-starter"  # Source for tfw-update
   task_prefix: PROJ          # Short prefix for task IDs
   initial_seq: 1
   templates:                  # Keep as-is
@@ -34,13 +35,19 @@ tfw:
     rf: .tfw/templates/RF.md
     onb: .tfw/templates/ONB.md
     review: .tfw/templates/REVIEW.md
-    knowledge: .tfw/templates/KNOWLEDGE.md
 
 build:
   lint: your-lint-command     # ruff check ., eslint ., flutter analyze
   test: your-test-command     # pytest, npm test, flutter test
   verify: your-verify-cmd    # python -c 'import main', flutter build apk --debug
 ```
+
+## Step 2.5: Record TFW Version
+
+Your `.tfw/PROJECT_CONFIG.yaml` includes a `tfw.version` field. It was set when you copied `.tfw/`.
+This field is used by the `tfw-update` workflow to detect which version of TFW your project is running.
+
+> ⚠️ Do not manually change `tfw.version` — it is updated by the `tfw-update` workflow.
 
 ## Step 3: Choose Tool Adapter
 
@@ -89,6 +96,7 @@ cp .tfw/glossary.md .agent/rules/glossary.md
 ```bash
 cp .tfw/workflows/plan.md .agent/workflows/tfw-plan.md
 cp .tfw/workflows/handoff.md .agent/workflows/tfw-handoff.md
+cp .tfw/workflows/review.md .agent/workflows/tfw-review.md
 cp .tfw/workflows/resume.md .agent/workflows/tfw-resume.md
 cp .tfw/workflows/docs.md .agent/workflows/tfw-docs.md
 ```
@@ -111,18 +119,25 @@ cat >> README.md << 'EOF'
 
 | ID | Task | Status | HL | TS | ONB | RF | REV |
 |----|------|--------|----|----| --- |----| --- |
+| [PROJ-1](tasks/PROJ-1__example/) | _Example task_ | ⬜ TODO | | | | | |
 
 > Statuses: ⬜ TODO → 🔵 HL → 🟡 TS → 🟠 ONB → 🟢 RF → 🔍 REV → ✅ DONE | ❌ BLOCKED
 EOF
 
 # TECH_DEBT.md — empty tech debt registry
 mkdir -p tasks/
+
+# RELEASE.md (optional) — if your project has versioned releases
+cp .tfw/templates/RELEASE.md RELEASE.md
+# Edit RELEASE.md: answer the guiding questions for your project's release strategy
 ```
 
 > **⚠️ Do NOT add these files to `.gitignore`:**
 > `TECH_DEBT.md`, `AGENTS.md`, and the `tasks/` directory
 > are **core trace artifacts** and MUST be version-controlled.
 > Without them in git, the entire trace history is lost.
+
+> **💡 Do add `.tfw/.upstream/` to `.gitignore`** — this directory is used by `tfw-update` as a temporary staging area for upstream files.
 
 ## Step 5: Start Working
 
@@ -154,6 +169,8 @@ This ensures the TFW artifacts are not generic starter copies, but reflect the a
 - [ ] `.agent/rules/glossary.md` adapted for project (domain terms added)
 - [ ] Root files exist: README.md, AGENTS.md
 - [ ] `tasks/` directory exists
+- [ ] `tfw.version` in `PROJECT_CONFIG.yaml` matches `.tfw/VERSION`
+- [ ] `RELEASE.md` exists (if project has releases) or consciously skipped
 
 ---
 
@@ -168,7 +185,7 @@ An adapter is a bridge between a development tool and `.tfw/`. Requirements:
    - Reference to `.tfw/README.md` (philosophy)
    - Reference to `.tfw/conventions.md` (rules)
    - Context loading order
-   - Reference to `.tfw/workflows/` (plan, handoff, resume)
+   - Reference to `.tfw/workflows/` (plan, handoff, review, resume)
    - Conduct rules (no sycophancy, no placeholders)
 
 ### Template structure
@@ -176,7 +193,7 @@ An adapter is a bridge between a development tool and `.tfw/`. Requirements:
 ```markdown
 # TFW v3
 Read `.tfw/README.md` for philosophy. Follow `.tfw/conventions.md`.
-Workflows: `.tfw/workflows/` (plan, handoff, resume).
+Workflows: `.tfw/workflows/` (plan, handoff, review, resume).
 Context: AGENTS.md → .tfw/conventions.md → .tfw/glossary.md
 Rules: no sycophancy, no placeholders, user's language.
 ```
