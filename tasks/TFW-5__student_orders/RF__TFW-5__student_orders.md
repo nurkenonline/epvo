@@ -180,6 +180,11 @@ graph TD
 
 Подробный маппинг `SCHOLARSHIP` → `RF_TFW-4.D` §3.3 и `KNOWLEDGE.md` §2.9.
 
+**Справочник `scholarshipTypeId`:**
+- **Эндпоинт:** `GET /common-dictionary/SCHOLARSHIP_TYPE/find-all`
+- **Полная выгрузка:** [scholarship_types_full.json](scholarship_types_full.json) — 77 записей, каждый тип × `degreeId`.
+- **Ключевое:** Один тип стипендии (напр. «Минимальная государственная») имеет **разные `id`** для каждой акад. степени. При выборе `scholarshipTypeId` нужно учитывать `degreeId` студента.
+
 ### 3.8 type=14 — Продление академического отпуска
 
 ```

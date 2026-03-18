@@ -83,6 +83,8 @@
 | TFW-4 | Gap Analysis Decomposition (5 phases A–E) | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [TFW-5](tasks/TFW-5__student_orders/) | Реестр приказов по контингенту студентов | ✅ DONE | ✅ | ✅ | — | ✅ | ✅ |
 | [TFW-6](tasks/TFW-6__graduate_business_logic/) | Бизнес-логика перевода в статус «Выпускник» | ✅ DONE | ✅ | ✅ | — | ✅ | ✅ |
+| [TFW-7](tasks/TFW-7__delete_student_orders/) | Удаление ошибочных приказов о зачислении | 🟡 TS | ✅ | 🟡 | — | — | — |
+| [TFW-8](tasks/TFW-8__pps_data_mapping/) | Маппинг данных ППС (преподавателей) для ЕПВО | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 > Statuses: ⬜ TODO → 🔵 HL → 🟡 TS → 🟠 ONB → 🟢 RF → 🔍 REV → ✅ DONE | ❌ BLOCKED
 

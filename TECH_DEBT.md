@@ -15,5 +15,9 @@
 | TD-11 | TFW-6 RF obs. #2 | Low | `RF_TFW-4.E` §4.1 | `status=4` для выпускников не упомянут, только `isStudent=3` (связано с TD-3) | ⬜ Backlog |
 | TD-12 | TFW-6 RF obs. #3 | Med | `KNOWLEDGE.md` §2.11 | Sequencing Contract ссылается на ошибочный `orderType=6` — нужно обновить | ⬜ Backlog |
 | TD-13 | TFW-6 RF obs. #4 | Low | `RF_TFW-5` §3.10 | Семантический конфликт: бакалавриат — `orderType=3 cat=1` (отчисление по выпуску) — нуждается в пояснении | ⬜ Backlog |
+| TD-14 | TFW-8 ONB Risk #1 | Med | `RF_TFW-8` §1.4 | `ftutor` condition: PDF says `primaryEmploymentID=1`, chat says `=2` для зарубежного — верифицировать через тестовый UPSERT | ⬜ Backlog |
+| TD-15 | TFW-8 ONB Risk #2 | Low | `RF_TFW-8` §1.5 | `liveRegType` condition в PDF вероятно опечатка (`type=2` вместо `type=0`) — уточнить в чате ЕПВО | ⬜ Backlog |
+| TD-16 | TFW-8 ONB Inconsist. | Low | `RF_TFW-8` §1, §2 | `tutors.deleted` vs `tutor_cafedra.deleted` — оба поля существуют, разные контексты, документировать в KNOWLEDGE.md | ⬜ Backlog |
+| TD-17 | TFW-8 RF §6 | Low | `RF_TFW-8` §6 | `TUTOR_PUBLICATION` composite key не подтверждён (`PUB_ID` или `UNIVERSITY_ID`) — верифицировать через API | ⬜ Backlog |
 
 > Added by REVIEW files during task lifecycle. See `.tfw/workflows/docs.md`.

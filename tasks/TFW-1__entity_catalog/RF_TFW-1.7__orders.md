@@ -105,14 +105,32 @@
 | Поле | Тип | Обязательное | Описание |
 |------|-----|:---:|----------|
 | typeCode | string | ✅ | `"ORDERS_ACADEMIC_MOBILITY"` |
-| universityId | int32 | ✅ | ID вуза |
-| id | int32 | ✅ | Уникальный ID |
-| orderNumber | string | | Номер приказа |
-| orderDate | date | | Дата приказа |
-| studentId | int32 | | ID обучающегося (→ Student) |
+| universityId | int32 | ✅ | ID вашего вуза |
+| id | int32 | ✅ | Уникальный ID записи |
+| orderId | int32 | ✅ | ID приказа (→ Orders) |
+| sectionId | int32 | ✅ | ID параграфа (→ OrderSections) |
+| mobilityType | int32 | ✅ | 1=внутренняя, 2=внешняя |
+| countryId | int32 | УО | Страна ОВПО-партнера (обяз. при mobilityType=2) |
+| **partnerUniversityId** | int32 | ✅ | **ID зарубежного университета (→ ForeignUniversities)** |
+| startDate | date | ✅ | Дата начала обучения в ОВПО-партнере |
+| finishDate | date | ✅ | Дата окончания обучения |
+| studentId | int32 | ✅ | ID обучающегося (→ Student) |
+| financingSourceId | int32 | ✅ | ID источника финансирования (→ FinancingSourceAcademicMobility) |
+| Start_Study_Year | int32 | ✅ | Год начала обучения |
+| Start_Term | int32 | ✅ | Академический период начала |
+| Finish_Study_Year | int32 | ✅ | Год окончания обучения |
+| Finish_Term | int32 | ✅ | Академический период окончания |
+| format | int32 | ✅ | 1=онлайн, 2=офлайн |
+| agreementType | int32 | ✅ | 1=по договору, 2=двудипломное, 3=совместная ОП |
+| Reject_Order_Id | int32 | | — |
+| professionName | string | | Наименование специальности/ГОП |
+| professionId | int32 | | ID специальности/ГОП |
+| studyLanguageId | int32 | | ID языка обучения |
 | transferId | int32 | | ID мобильности (→ StudentTransfer) |
 
-**FK-зависимости:** `Student`, `StudentTransfer`
+> ⚠️ **NAMING TRAP:** `adm_doc.txt` (Таблица 36) называет поле `universityID`, но фактическое имя JSON-ключа API — **`partnerUniversityId`**. Если отправить `universityID` — API вернёт 200, но поле будет проигнорировано, и название ОВПО-партнёра не отобразится в карточке. Источник: fix 2026-03-18. См. `KNOWLEDGE.md` §1.6.
+
+**FK-зависимости:** `Orders`, `OrderSections`, `Student`, `StudentTransfer`, `ForeignUniversities`, `FinancingSourceAcademicMobility`, `CenterCountry`
 
 ---
 
