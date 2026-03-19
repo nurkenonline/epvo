@@ -1,8 +1,8 @@
 # TS — TFW-7: Процедура удаления приказов из ЕПВО
 
-> **Дата**: 2026-03-17
+> **Дата**: 2026-03-18
 > **Автор**: Coordinator (AI)
-> **Статус**: 🟡 TS — Ожидает апрува
+> **Статус**: ✅ TS — Утверждён
 > **Parent HL**: [HL-TFW-7__delete_student_orders](HL-TFW-7__delete_student_orders.md)
 
 ---
@@ -15,10 +15,12 @@
 
 ### In Scope
 - Pipeline удаления (обратный порядок сущностей для каждого типа приказа из RF_TFW-5)
-- Composite key type и поле ID в body для каждой сущности приказа
+- **Детализированный pipeline для type=13 (стипендии)** — 7 сущностей (SCHOLARSHIP + TRANSCRIPT + 5 базовых)
+- Composite key type и поле ID в body для каждой сущности приказа (8+ сущностей)
 - Побочные эффекты на `STUDENT` и вспомогательные сущности после удаления
 - Матрица: тип приказа → набор сущностей для удаления
-- Ограничения API (каскадность, идемпотентность, soft delete) — на основе RF_TFW-2.5 и логических выводов
+- Ограничения API (каскадность, идемпотентность, soft delete)
+- Практические наблюдения из проекта AD ЕПВО (пример реализации)
 - Рекомендации: в каком порядке удалять, что проверять после удаления
 
 ### Out of Scope
@@ -55,10 +57,11 @@
 | `SECTION_PERSON` | `SECTION_PERSON` | ? | `id` |
 | `ORDER_STUDENT_INFO` | `ORDER_STUDENT_INFO` | ? | `orderStudentInfoId` или `id` |
 | `ORDERS_ADDITIONAL` | `ORDERS_ADDITIONAL` | ? | `id` |
+| `SCHOLARSHIP` | `SCHOLARSHIP` | `UNIVERSITY_ID_COMPOSITE_KEY` | `id` ❓ |
+| `TRANSCRIPT` | `TRANSCRIPT` | ? | `id` ❓ |
 | `RETIRES` | `RETIRES` | `UNIVERSITY_ID_COMPOSITE_KEY` | `id` ✅ |
-| `SCHOLARSHIP` | `SCHOLARSHIP` | `UNIVERSITY_ID_COMPOSITE_KEY` | `id` ? |
 
-> `RETIRES` подтверждён из KNOWLEDGE.md §2.8. Остальные — гипотезы на основе RF_TFW-2.5.
+> `RETIRES` подтверждён из KNOWLEDGE.md §2.8. `SCHOLARSHIP` и `TRANSCRIPT` — гипотезы. Остальные — гипотезы на основе RF_TFW-2.5.
 
 **Источники:** RF_TFW-2.5 §1.3, KNOWLEDGE.md §2.8, RF_TFW-1.7 (OpenAPI поля).
 
@@ -72,13 +75,35 @@
 
 | Шаблон | Типы приказов | Сущности для удаления (в порядке) |
 |--------|---------------|-----------------------------------|
-| Базовый (4 сущности) | 2, 3, 7, 8, 9, 11, 48, 49 | ORDERS_ADDITIONAL → ORDER_STUDENT_INFO → SECTION_PERSON → ORDER_SECTIONS → ORDERS |
+| Базовый (5 сущностей) | 2, 3, 7, 8, 9, 11, 48, 49 | ORDERS_ADDITIONAL → ORDER_STUDENT_INFO → SECTION_PERSON → ORDER_SECTIONS → ORDERS |
 | + RETIRES | 6, 14 | RETIRES → (базовый) |
-| + SCHOLARSHIP | 13, 27 | SCHOLARSHIP → (базовый) |
+| **+ SCHOLARSHIP + TRANSCRIPT** | **13, 27** | **TRANSCRIPT → SCHOLARSHIP → (базовый)** |
 | + GRADUATES/DIPLOMA | 28 | GRADUATES → STUDENT_DIPLOMA_INFO → (базовый) |
 | + ACADEMIC_MOBILITY | 30, 31, 32, 33 | ORDERS_ACADEMIC_MOBILITY → (базовый) |
 | + COURSE_TRANSFER | 34 | COURSE_TRANSFER_ORDER → (базовый) |
 | + INTERNSHIP | 39 | ORDER_INTERNSHIP_STUDENTS → (базовый) |
+
+### Step 3b: Детальный pipeline удаления для type=13 (стипендии)
+
+На основе практической реализации AD ЕПВО (два источника: `scholarship_csv.py` и `orders_importer.py`) описать:
+
+**Pipeline создания (7 сущностей, подтверждённый практикой):**
+```
+ORDERS (orderType=13) → ORDER_SECTIONS → SECTION_PERSON (movementDate, overall_performance)
+→ ORDER_STUDENT_INFO → ORDERS_ADDITIONAL → SCHOLARSHIP → TRANSCRIPT
+```
+
+**Pipeline удаления (обратный порядок, 7 сущностей):**
+```
+TRANSCRIPT → SCHOLARSHIP → ORDERS_ADDITIONAL → ORDER_STUDENT_INFO
+→ SECTION_PERSON → ORDER_SECTIONS → ORDERS
+```
+
+Ключевые особенности для документирования:
+- **TRANSCRIPT:** создаётся с `not_included_scholarship=True` (исключение из стипендиальных отчётов)
+- **SCHOLARSHIP:** обязательные поля `scholarshipMoney`, `sectionId`, `scholarshipTypeId`, `overallPerformance`
+- **ID-формула с month_offset:** в AD ЕПВО используется формула `base + studentId + (month-1)*1M` для уникальности ID при множественных месяцах
+- **Побочные эффекты:** удаление приказа о стипендии **не меняет** `STUDENT.status`, но может повлиять на карточку финансирования (кэш ~1-2 часа)
 
 ### Step 4: Побочные эффекты (откат STUDENT)
 
@@ -112,8 +137,9 @@
 ## 5. Acceptance Criteria
 
 - [ ] RF содержит механику Delete API с примером запроса
-- [ ] Таблица composite key → body-поле для 7+ сущностей приказов
+- [ ] Таблица composite key → body-поле для 8+ сущностей приказов (включая SCHOLARSHIP и TRANSCRIPT)
 - [ ] Pipeline удаления описан для всех основных типов (сгруппированных по шаблонам)
+- [ ] **Детальный pipeline для type=13** (стипендии) с 7 сущностями и особенностями (month_offset, TRANSCRIPT.not_included_scholarship)
 - [ ] Побочные эффекты на STUDENT задокументированы для каждого типа
 - [ ] Ограничения API (каскадность, soft delete, идемпотентность) зафиксированы
 - [ ] Открытые вопросы из HL §2.2 разрешены или помечены ⚠️/❓

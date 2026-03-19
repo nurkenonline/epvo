@@ -19,5 +19,8 @@
 | TD-15 | TFW-8 ONB Risk #2 | Low | `RF_TFW-8` §1.5 | `liveRegType` condition в PDF вероятно опечатка (`type=2` вместо `type=0`) — уточнить в чате ЕПВО | ⬜ Backlog |
 | TD-16 | TFW-8 ONB Inconsist. | Low | `RF_TFW-8` §1, §2 | `tutors.deleted` vs `tutor_cafedra.deleted` — оба поля существуют, разные контексты, документировать в KNOWLEDGE.md | ⬜ Backlog |
 | TD-17 | TFW-8 RF §6 | Low | `RF_TFW-8` §6 | `TUTOR_PUBLICATION` composite key не подтверждён (`PUB_ID` или `UNIVERSITY_ID`) — верифицировать через API | ⬜ Backlog |
+| TD-18 | TFW-7 RF obs. #1 | Med | `RF_TFW-5` §3.7 | Pipeline type=13 описан как 4 сущности, практика AD ЕПВО показывает 6+1 (+ ORDER_STUDENT_INFO, ORDERS_ADDITIONAL, TRANSCRIPT) | ⬜ Backlog |
+| TD-19 | TFW-7 RF obs. #2 | Low | `KNOWLEDGE.md` | Нет раздела §2.9 (стипендии). Ссылка из RF_TFW-5 §3.7 ведёт в пустоту | ⬜ Backlog |
+| TD-20 | TFW-7 RF obs. #3 | Low | `RF_TFW-2.5` §1.3 | Таблица composite keys не включает `ORDER_ID_COMPOSITE_KEY`, хотя он используется в OpenAPI для `ORDERS/find-by-id` | ⬜ Backlog |
 
 > Added by REVIEW files during task lifecycle. See `.tfw/workflows/docs.md`.

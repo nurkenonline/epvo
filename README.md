@@ -31,6 +31,19 @@
 
 Полный перечень: FACULTIES, CAFEDRA, STUDENT, STUDENT_INFO, STUDENT_DIPLOMA_INFO, TUTOR, TUTOR_CAFEDRA, PROFESSION, GROUPS, ORDERS, TRANSCRIPT, GRADUATES и ещё ~80 справочников (см. RF-файлы в `tasks/TFW-1__entity_catalog/`).
 
+## Источники бизнес-логики
+
+Помимо OpenAPI-спецификации, проект опирается на следующие документы в папке `instructions/`:
+
+| Файл | Описание |
+|------|----------|
+| `Инструкция_Адм_отчеты_описание_таблиц_011025.pdf` | Маппинг 60+ таблиц контингента, приказов, СУР |
+| `Инструкция_Показатели_СУР_описание_таблиц_29092025.pdf` | Критерии устойчивого развития, показатели докторантуры |
+| `ОВПО_Инструкция_Финансирование_02092024.txt` | Стипендии, IBAN/БИК, расчёт среднего балла |
+| `Инструкция для ОСМС.pdf` | Статусы страхования (`isstudent = 1/2/3`) |
+| `platonus_tickets_index.md` | Индекс 253 заявок в техподдержку ЕПВО (категоризация) |
+| `platonus_support_conversations.md` | 8 ключевых переписок с разработчиками (ответы на вопросы по API, маппингу, ошибкам) |
+
 ## Быстрый старт
 
 1. Прочитать `AGENTS.md` → `.tfw/conventions.md` → `KNOWLEDGE.md`
@@ -55,6 +68,9 @@
 ├── README.md           # Этот файл + Task Board
 ├── KNOWLEDGE.md        # База знаний проекта
 ├── TECH_DEBT.md        # Реестр технического долга
+├── adm_doc.txt         # Описание таблиц Адм. отчётов (352 КБ)
+├── sur_doc.txt         # Описание таблиц СУР (191 КБ)
+├── Состав ЕПВО.txt     # Состав модулей ЕПВО (основа декомпозиции TFW-4)
 ├── .tfw/               # Ядро TFW v3 (tool-agnostic)
 │   ├── README.md       # Философия TFW
 │   ├── conventions.md  # Конвенции
@@ -65,13 +81,23 @@
 │   └── adapters/       # Адаптеры для IDE
 ├── .agent/             # Antigravity адаптер
 │   ├── rules/tfw.md
-│   └── workflows/      # tfw-plan, tfw-handoff, tfw-resume, tfw-docs
+│   └── workflows/      # tfw-plan, tfw-handoff, tfw-resume, tfw-docs, tfw-task
+├── init/               # Скрипты первичной инициализации
 ├── tasks/              # Артефакты задач
 │   ├── TFW-1__entity_catalog/
 │   ├── TFW-2__api_endpoints/
 │   ├── TFW-4__gap_decomposition/
-│   └── TFW-5__student_orders/
+│   ├── TFW-5__student_orders/
+│   ├── TFW-6__graduate_business_logic/
+│   ├── TFW-7__delete_student_orders/
+│   └── TFW-8__pps_data_mapping/
 └── instructions/       # Исходные файлы инструкций
+    ├── Инструкция_Адм_отчеты_описание_таблиц_011025.pdf
+    ├── Инструкция_Показатели_СУР_описание_таблиц_29092025.pdf
+    ├── ОВПО_Инструкция_Финансирование_02092024.txt
+    ├── Инструкция для ОСМС.pdf
+    ├── platonus_tickets_index.md
+    └── platonus_support_conversations.md
 ```
 
 ## Task Board
@@ -83,7 +109,7 @@
 | TFW-4 | Gap Analysis Decomposition (5 phases A–E) | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [TFW-5](tasks/TFW-5__student_orders/) | Реестр приказов по контингенту студентов | ✅ DONE | ✅ | ✅ | — | ✅ | ✅ |
 | [TFW-6](tasks/TFW-6__graduate_business_logic/) | Бизнес-логика перевода в статус «Выпускник» | ✅ DONE | ✅ | ✅ | — | ✅ | ✅ |
-| [TFW-7](tasks/TFW-7__delete_student_orders/) | Удаление ошибочных приказов о зачислении | 🟡 TS | ✅ | 🟡 | — | — | — |
+| [TFW-7](tasks/TFW-7__delete_student_orders/) | Удаление ошибочных приказов о зачислении | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [TFW-8](tasks/TFW-8__pps_data_mapping/) | Маппинг данных ППС (преподавателей) для ЕПВО | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 > Statuses: ⬜ TODO → 🔵 HL → 🟡 TS → 🟠 ONB → 🟢 RF → 🔍 REV → ✅ DONE | ❌ BLOCKED
