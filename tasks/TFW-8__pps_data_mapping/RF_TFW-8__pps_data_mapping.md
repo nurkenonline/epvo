@@ -43,7 +43,7 @@
 | genderId | int32 | ✅ | Пол (→ `CenterGender`) | |
 | iinplt | string(32) | ✅ | ИИН преподавателя | |
 | citizenshipid | int32 | ✅ | ID гражданства (→ `CenterCountry`) | **STRICT: ≠ null** (400/500 при null) |
-| nationId | int32 | | Национальность (→ `CenterNation`) | |
+| nationId | int32 | | Национальность (→ `CenterNationality`) | |
 | academicStatusId | int32 | | Академическое звание (→ `AcademicStatus`) | |
 | scientificDegreeId | int32 | | Учёная степень (→ `ScientificDegree`) | |
 | ismarried | int32 | ✅ | Семейное положение | → справочник «Семейное положение» |
