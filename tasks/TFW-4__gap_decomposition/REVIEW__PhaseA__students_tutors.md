@@ -12,7 +12,7 @@
 |-------|--------|-------------|
 | **DoD met?** | ✅ Pass | Описана логика для STUDENT, STUDENT_INFO и TUTOR. Сформирован `RF_TFW-4.A__students_tutors.md`. |
 | **Code quality (Spec Quality)** | ✅ Pass | Использован читаемый псевдокод для интеграторов (IF/ELSE). |
-| **Philosophy aligned** | ✅ Pass | Логика отчуждена от исходного кода `esuvoapi` и написана как чистые бизнес-требования. |
+| **Philosophy aligned** | ✅ Pass | Логика отчуждена от исходного кода ИС ОВПО и написана как чистые бизнес-требования. |
 | **Security / Edge cases** | ✅ Pass | Зафиксирован strict drop (отбрасывание) при отсутствии гражданства, чтобы не нарушить аналитику ЕПВО. |
 
 ## 2. Tech Debt Collected
