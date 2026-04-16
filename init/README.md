@@ -31,7 +31,7 @@
 
 This README is the single entrypoint for AI. It explains the *why*, the *what*, and the *how*, and contains the prompt you can paste into any chat to switch it into Trace-First Workflow project mode.
 
-If you are AI Agent or AI chat or any instance of AI please read README and then strictly follow [AI_ENTRY_POINT.md](https://github.com/saubakirov/trace-first-starter/blob/master/AI_ENTRY_POINT.md) as a prompt and instructions.
+If you are AI Agent or AI chat or any instance of AI please read README and then strictly follow [AI_ENTRY_POINT.md](AI_ENTRY_POINT.md) as a prompt and instructions.
 
 ---
 
@@ -79,7 +79,7 @@ If you are AI Agent or AI chat or any instance of AI please read README and then
 ## Quick-start (humans)
 
 **You are mid-conversation and realize “it’s time”**
-1. Copy-paste link to this repo https://github.com/saubakirov/trace-first-starter/blob/master/README.md to any AI Chat  
+1. Copy-paste link to this README.md to any AI Chat  
 2. The agent will:  
    - harvest the chat history,  
    - create `AGENTS.md` for current project
@@ -184,4 +184,4 @@ When an AI agent receives a TS__*.md:
 
 ---
 
-If you are AI Agent or AI chat or any instance of AI please strictly follow [AI_ENTRY_POINT.md](https://github.com/saubakirov/trace-first-starter/blob/master/AI_ENTRY_POINT.md) as a prompt and instructions.
+If you are AI Agent or AI chat or any instance of AI please strictly follow [AI_ENTRY_POINT.md](AI_ENTRY_POINT.md) as a prompt and instructions.
