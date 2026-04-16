@@ -61,15 +61,27 @@
 | typeCode | string | ✅ | `"SPECIALIZATIONS"` |
 | universityId | int32 | ✅ | ID вуза |
 | id | int32 | ✅ | Уникальный идентификатор ОП |
-| professionId | int32 | | ГОП (→ Profession) |
+| prof_caf_id | int32 | | ID мостовой связи (→ `PROFESSION_CAFEDRA`). ⚠️ OpenAPI v3 ошибочно документирует прямую fk `professionId`. *(Исправлено: TD-22)* |
 | nameRu | string | | Название ОП на русском |
 | nameKz | string | | Название ОП на казахском |
 | nameEn | string | | Название ОП на английском |
-| code | string | | Код ОП |
+| code | string | | Код ОП (внутренний) |
+| specializationCode | string | | Код ОП для реестра (формат: код_напр + порядковый_номер) |
 | accredited | boolean | | Аккредитована ли ОП |
 | studyLanguageId | int32 | | Язык обучения (→ `CenterStudyLanguages`) |
+| statusep | int32 | | Статус в Реестре (0=Не вкл, 1=Вкл, 2=Искл) |
+| eduprogtype | int32 | | Тип ОП (1=Действ, 2=Новая, 3=Инновац) |
+| ignore_rms | boolean | | Исключить из расчета показателей СУР |
+| trainingformatid | int32 | | Формат обучения (→ `CenterTrainingFormat`) |
+| is_interdisciplinary | boolean | | Междисциплинарная ОП |
+| doublediploma | boolean | | Двудипломное образование |
+| jointep | boolean | | Совместная ОП |
+| partneruniverid | int32 | | ID партнёрского вуза |
+| descriptionRu/Kz/En | string | | Описание ОП (до 4096 символов) |
 
-**FK-зависимости:** `Profession` (professionId), `CenterStudyLanguages`
+*(Примечание: Дополнительные 20+ полей добавлены в рамках TFW-10 для соответствия adm_doc. OpenAPI spec является неполным. TD-21)*
+
+**FK-зависимости:** `PROFESSION_CAFEDRA` (prof_caf_id), `CenterStudyLanguages`, `CenterTrainingFormat`
 
 **JSON-пример:**
 ```json
@@ -77,13 +89,16 @@
   "typeCode": "SPECIALIZATIONS",
   "universityId": 999,
   "id": 501,
-  "professionId": 401,
+  "prof_caf_id": 1,
   "nameRu": "Информатика",
   "nameKz": "Информатика",
   "nameEn": "Computer Science",
   "code": "6B01501",
+  "specializationCode": "6B01501",
   "accredited": true,
-  "studyLanguageId": 1
+  "studyLanguageId": 1,
+  "statusep": 1,
+  "ignore_rms": false
 }
 ```
 
@@ -268,8 +283,8 @@ graph TD
     PROFESSION --> DegreeTypes[sys:DegreeTypes]
     PROFESSION --> STUDY_FORMS
     PROFESSION --> CenterProfession[sys:CenterProfession]
-    PROFESSION --> CenterTrainDir[sys:CenterTrainingDirection]
-    SPECIALIZATIONS --> PROFESSION
+    CenterProfession[sys:CenterProfession] --> CenterTrainDir[sys:CenterTrainingDirection]
+    SPECIALIZATIONS --> PROFESSION_CAFEDRA
     SPECIALIZATIONS --> CenterStudyLang[sys:CenterStudyLanguages]
     PROFESSION_CAFEDRA --> PROFESSION
     PROFESSION_CAFEDRA --> CAFEDRA

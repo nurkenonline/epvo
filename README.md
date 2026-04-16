@@ -111,7 +111,8 @@
 | [TFW-6](tasks/TFW-6__graduate_business_logic/) | Бизнес-логика перевода в статус «Выпускник» | ✅ DONE | ✅ | ✅ | — | ✅ | ✅ |
 | [TFW-7](tasks/TFW-7__delete_student_orders/) | Удаление ошибочных приказов о зачислении | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [TFW-8](tasks/TFW-8__pps_data_mapping/) | Маппинг данных ППС (преподавателей) для ЕПВО | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
-
+| [TFW-9](tasks/TFW-9__education_programs_sync/) | Инструкция по синхронизации Реестра ОП | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [TFW-10](tasks/TFW-10__resolve_education_programs_tech_debt/) | Разрешение техдолга по Реестру ОП (TD-21 — TD-25) | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
 > Statuses: ⬜ TODO → 🔵 HL → 🟡 TS → 🟠 ONB → 🟢 RF → 🔍 REV → ✅ DONE | ❌ BLOCKED
 
 ## Безопасность

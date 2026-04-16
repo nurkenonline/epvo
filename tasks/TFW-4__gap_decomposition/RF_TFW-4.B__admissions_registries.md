@@ -25,7 +25,8 @@ EPVO.languageId = local.language_id
 2 = Платное (Очная)
 ```
 
-## 3. Сущность: EducationProgram (Образовательная программа)
+## 3. Сущность: EducationProgram / SPECIALIZATIONS (Образовательная программа)
+*(В API ЕПВО фактический typeCode = "SPECIALIZATIONS". TD-25)*
 - **Endpoint**: `/org-data/list/save` (или `/education-programs`)
 - **Зависимости**: `CenterProfession` (Специальности / ГОП)
 
@@ -41,6 +42,11 @@ EPVO.languageId = local.language_id
 ### 3.2. Бизнес-правила (Critical Business Logic)
 
 **Правило 2 (Вычисление срока обучения):**
+
+> [!WARNING]
+> **Семантический конфликт (TD-23)**:
+> В `EducationProgram` (`SPECIALIZATIONS`) сроком обучения является поле `duration`, которое следует передавать в **месяцах**. В сущности `PROFESSION` (ГОП) есть поле `studyPeriod`, которое измеряется исключительно в **семестрах**. Будьте осторожны при маппинге.
+
 В локальной БД срок обучения хранится в годах. API ЕПВО требует срок в месяцах.
 ```text
 IF local.duration_years IS NOT NULL:
