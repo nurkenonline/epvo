@@ -1,0 +1,110 @@
+{
+  "content": [
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 1,
+      "nameRu": "ASIIN",
+      "nameEn": "ASIIN",
+      "nameKz": "ASIIN",
+      "type": 1
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 2,
+      "nameRu": "ASIIN (Агентство по аккредитации образовательных программ в области инженерии, информатики, естественных наук и математики)",
+      "nameEn": "ASIIN e. V. (Accreditation Agency for Study Programs in Engineering, Informatics, Natural Sciences and Mathematics)",
+      "nameKz": "ASIIN (Инженерлік білім беру бағдарламаларды, информатика, жаратылыстану ғылымдары және математика аккредиттеу агенттігі)",
+      "type": 1
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 3,
+      "nameRu": "AQ Австрия (Агентство по обеспечению качества и аккредитации Австрии)",
+      "nameEn": "AQ Austria (the Agency for Quality Assurance and Accreditation Austria)",
+      "nameKz": "AQ Австрия (Сапаны қамтамасыз ету және аккредиттеу Австрия агенттігі)",
+      "type": 1
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 4,
+      "nameRu": "ACQUIN (Институт аккредитации, сертификации и качество обеспечения)",
+      "nameEn": "ACQUIN (The Accreditation, Certification and Quality assurance Institute)",
+      "nameKz": "ACQUIN (Аккредиттеу, сертификаттау және сапаны қамтамасыз ету институты )",
+      "type": 1
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 5,
+      "nameRu": "FIBAA (Фонд аккредитации международного бизнес-администрирования )",
+      "nameEn": "FIBAA (Foundation for International Business Administration Accreditation)",
+      "nameKz": "FIBAA ( Бизнес басқару бойынша халықаралық аккредиттеу қоры)",
+      "type": 1
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 6,
+      "nameRu": "Независимое агентство аккредитации и рейтинга (НААР)",
+      "nameEn": "Independent Agency for Accreditation and Rating (IAAR)",
+      "nameKz": "Аккредиттеу және рейтингтің тәуелсіз агенттігі (АРТА)",
+      "type": 1
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 7,
+      "nameRu": "Независимое агентство по обеспечению качества в образовании (IQAA)",
+      "nameEn": "Independent Agency for Quality Assurance in Education (IQAA)",
+      "nameKz": "Білім сапасын қамтамасыздандыру бойынша тәуелсіз агенттігі (IQAA)",
+      "type": 1
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 8,
+      "nameRu": "Центрально-Азиатская Ассоциация по аккредитации образования (CAAАE)",
+      "nameEn": "Central Asian Association for Accreditation of Education (CAAAE)",
+      "nameKz": "Орталық Азия білім жүйесін аккредиттеу қауымдастығы (CAAАE)",
+      "type": null
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 9,
+      "nameRu": "НУ “Независимый Казахстанский центр аккредитации” (НКЦА)",
+      "nameEn": "Non-profit Institution “Independent Kazakhstan Center of Accreditation” (НКЦА)",
+      "nameKz": "“Аккредиттеудің Тәуелсіз Қазақстандық Орталығы” Коммерциялық емес мекеме (АТҚО)",
+      "type": 1
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": false,
+      "empty": true,
+      "unsorted": true
+    },
+    "pageNumber": 0,
+    "pageSize": 10,
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": true,
+  "totalPages": 1,
+  "totalElements": 9,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "sorted": false,
+    "empty": true,
+    "unsorted": true
+  },
+  "first": true,
+  "numberOfElements": 9,
+  "empty": false
+}

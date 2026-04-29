@@ -1,0 +1,149 @@
+{
+  "content": [
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 1,
+      "accredAgencyId": 6,
+      "startDate": "2017-11-30",
+      "finishDate": "2022-11-29",
+      "markPassageDate": "2019-06-10",
+      "codeEducProgramsId": 1,
+      "nameOfEducPrograms": "Изобразительное искусство и черчение",
+      "classifierFrom2009": null
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 2,
+      "accredAgencyId": 4,
+      "startDate": "2017-03-28",
+      "finishDate": "2022-09-30",
+      "markPassageDate": "2019-06-10",
+      "codeEducProgramsId": 2,
+      "nameOfEducPrograms": "Дошкольное обучение и воспитание",
+      "classifierFrom2009": null
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 3,
+      "accredAgencyId": 4,
+      "startDate": "2017-03-28",
+      "finishDate": "2022-09-30",
+      "markPassageDate": "2019-06-10",
+      "codeEducProgramsId": 3,
+      "nameOfEducPrograms": "Педагогика и методика начального обучения (Английский язык)",
+      "classifierFrom2009": null
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 4,
+      "accredAgencyId": 6,
+      "startDate": "2016-12-26",
+      "finishDate": "2021-12-24",
+      "markPassageDate": "2016-12-26",
+      "codeEducProgramsId": 4,
+      "nameOfEducPrograms": "Иностранный язык: два иностранных языка",
+      "classifierFrom2009": null
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 5,
+      "accredAgencyId": 0,
+      "startDate": null,
+      "finishDate": null,
+      "markPassageDate": null,
+      "codeEducProgramsId": 5,
+      "nameOfEducPrograms": "Иностранный язык: два иностранных языка (немецкий язык)",
+      "classifierFrom2009": null
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 6,
+      "accredAgencyId": 6,
+      "startDate": "2017-11-30",
+      "finishDate": "2022-11-29",
+      "markPassageDate": "2019-06-10",
+      "codeEducProgramsId": 6,
+      "nameOfEducPrograms": "Профессиональное обучение",
+      "classifierFrom2009": null
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 7,
+      "accredAgencyId": 4,
+      "startDate": "2017-03-28",
+      "finishDate": "2022-09-30",
+      "markPassageDate": "2019-06-10",
+      "codeEducProgramsId": 7,
+      "nameOfEducPrograms": "Педагогика и психология",
+      "classifierFrom2009": null
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 8,
+      "accredAgencyId": 6,
+      "startDate": "2016-12-26",
+      "finishDate": "2021-12-24",
+      "markPassageDate": "2016-12-26",
+      "codeEducProgramsId": 8,
+      "nameOfEducPrograms": "Казахский язык и литература в школах с неказахским языком обучения",
+      "classifierFrom2009": null
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 9,
+      "accredAgencyId": 6,
+      "startDate": "2016-12-26",
+      "finishDate": "2021-12-24",
+      "markPassageDate": "2016-12-26",
+      "codeEducProgramsId": 9,
+      "nameOfEducPrograms": "Русский язык и литература в школах с нерусским языком обучения",
+      "classifierFrom2009": null
+    },
+    {
+      "typeCode": null,
+      "universityId": 7,
+      "id": 10,
+      "accredAgencyId": 4,
+      "startDate": "2017-03-28",
+      "finishDate": "2022-09-30",
+      "markPassageDate": "2019-06-10",
+      "codeEducProgramsId": 10,
+      "nameOfEducPrograms": "Социальная педагогика и самопознание",
+      "classifierFrom2009": null
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": false,
+      "empty": true,
+      "unsorted": true
+    },
+    "pageNumber": 0,
+    "pageSize": 10,
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": false,
+  "totalPages": 122,
+  "totalElements": 1219,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "sorted": false,
+    "empty": true,
+    "unsorted": true
+  },
+  "first": true,
+  "numberOfElements": 10,
+  "empty": false
+}
