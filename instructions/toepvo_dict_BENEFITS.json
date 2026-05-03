@@ -1,0 +1,442 @@
+[
+  {
+    "id": 71,
+    "nameRu": "Аттестат с отличием",
+    "nameKz": "Үздік аттестат",
+    "nameEn": "Certificate with honors",
+    "type": 1,
+    "updateDate": "2022-08-10T11:18:11.787"
+  },
+  {
+    "id": 41,
+    "nameRu": "Без квоты",
+    "nameKz": "Квотасыз",
+    "nameEn": "Without a quota",
+    "type": 2,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 60,
+    "nameRu": "Лица, награжденные знаком отличия за проявленный патриотизм и активную гражданскую позицию",
+    "nameKz": "Патриоттық танытқаны және белсенді азаматтық ұстанымы үшін ерекшелік белгісімен наградталған тұлғалар",
+    "nameEn": "Persons awarded the insignia for patriotism and active citizenship",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 72,
+    "nameRu": "Алтын Белгі",
+    "nameKz": "Алтын Белгі",
+    "nameEn": "Altyn Belgi",
+    "type": 1,
+    "updateDate": "2022-08-10T11:19:27.443"
+  },
+  {
+    "id": 68,
+    "nameRu": "Детей из семей, в которых воспитывается четыре и более несовершеннолетних детей  ",
+    "nameKz": "Кәмелетке толмаған төрт және одан көп бала тәрбиелеп отырған отбасылардағы балалар үшін  ",
+    "nameEn": "Children from families with four or more minor children  ",
+    "type": 1,
+    "updateDate": "2020-11-16T11:23:20"
+  },
+  {
+    "id": 69,
+    "nameRu": "Детей из числа неполных семей, имеющих данный статус не менее трех лет  ",
+    "nameKz": "Кемінде үш жыл толық емес отбасы мәртебесі бар отбасылардағы балалар үшін  ",
+    "nameEn": "Children from single-parent families with this status for at least three years  ",
+    "type": 1,
+    "updateDate": "2020-11-16T11:23:20"
+  },
+  {
+    "id": 70,
+    "nameRu": "Детей из семей, воспитывающих детей-инвалидов с детства, инвалидов первой и второй групп  ",
+    "nameKz": "Бала кезінен мүгедек балаларды, бірінші және екінші топтардағы мүгедектерді тәрбиелеп отырған отбасылардағы балалар үшін  ",
+    "nameEn": "Children from families raising children with disabilities from childhood, invalids of the first and second groups  ",
+    "type": 1,
+    "updateDate": "2020-11-16T11:23:20"
+  },
+  {
+    "id": 18,
+    "nameRu": "Без попечения родителей",
+    "nameKz": "Ата-ана қомқорлығынсыз",
+    "nameEn": "Children without parental care",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 36,
+    "nameRu": "Для ветеранов боевых действий на территории других государств, ветеранов, приравненных по льготам к ветеранам Великой Отечественной войны",
+    "nameKz": "Басқа мемлекеттердің аумағындағы әскери қимылдардың ардагерлері, жеңілдіктер бойынша Ұлы Отан соғысының ардагерлеріне теңестірілген ардагерлер үшін",
+    "nameEn": "For veterans of combat operations at territory of other states, veterans equated in privileges to veterans of WWII ",
+    "type": 2,
+    "updateDate": "2024-11-11T09:39:51"
+  },
+  {
+    "id": 22,
+    "nameRu": "Победитель международной/республиканской предметной олимпияды",
+    "nameKz": "Халықаралық/республикалық пәндік олимпиадалардың жеңімпазы",
+    "nameEn": "Winner of the International / Republican Subject Olympiad",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 23,
+    "nameRu": "Победитель международного / республиканского научного соревнования",
+    "nameKz": "Халықаралық/республикалық ғылыми жарыстың жеңімпазы",
+    "nameEn": "Winner of the International / Republican Scientific Competition",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 24,
+    "nameRu": "Выпускник автономной организации ",
+    "nameKz": "Автономды ұйымның түлегі",
+    "nameEn": "Graduate of an independent organization",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 5,
+    "nameRu": "Инвалид детства",
+    "nameKz": "Бала кезден мүгедек",
+    "nameEn": "Disabled since childhood",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 25,
+    "nameRu": "Сельская квота",
+    "nameKz": "Ауылдық квота",
+    "nameEn": "rural quota (allowances)",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 28,
+    "nameRu": "Лица казахской национальности не граждане РК ",
+    "nameKz": "ҚР азаматы емес қазақ ұлтты тұлғалар",
+    "nameEn": "Persons of Kazakh nationality who are not citizens of the Republic of Kazakhstan",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 33,
+    "nameRu": "Грант по программе Серпін",
+    "nameKz": "Серпін бағдарламасы бойынша грант",
+    "nameEn": "Grant according to the Serpin program",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 38,
+    "nameRu": "Для лиц казахской национальности, не являющихся гражданами Республики Казахстан",
+    "nameKz": "Для лиц казахской национальности, не являющихся гражданами Республики Казахстан",
+    "nameEn": "For persons with Kazakh nationality, who are not citizens of the Republic of Kazakhstan",
+    "type": 2,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 2,
+    "nameRu": "Инвалид 1 группы",
+    "nameKz": "1 топ мүгедегі",
+    "nameEn": "disabled, 1 group",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 3,
+    "nameRu": "Инвалид 2 группы",
+    "nameKz": "2 топ мүгедегі",
+    "nameEn": "disabled, 2 group",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 29,
+    "nameRu": "Обладатель грантов по квоте ",
+    "nameKz": "Үлестеме бойынша гранттардың иегері",
+    "nameEn": "The owner of grants on a quota",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 35,
+    "nameRu": "Для граждан из числа лиц с инвалидностью первой или второй группы, лиц с инвалидностью с детства, детей с инвалидностью",
+    "nameKz": "Бірінші немесе екінші топ мүгедектігі бар адамдар, бала кезінен мүгедектігі бар адамдар, мүгедектігі бар балалар қатарындағы азаматтар үшін",
+    "nameEn": "For citizens with the first and second category disabilities, persons with life-long disability, disabled children",
+    "type": 2,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 37,
+    "nameRu": "Для граждан из числа сельской молодежи на обучение по образовательным программам, определяющим социально-экономическое развитие села",
+    "nameKz": "Ауылдың әлеуметтік-экономикалық дамуын айқындайтын білім беру бағдарламалары бойынша оқыту үшін ауыл жастары қатарындағы азаматтар үшін",
+    "nameEn": "For rural youth, educated under educational programs, defining socio-economic development of rural regions ",
+    "type": 2,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 39,
+    "nameRu": "Для детей-сирот и детей, оставшихся без попечения родителей, а также граждан Республики Казахстан из числа молодежи, потерявших или оставшихся без попечения родителей до совершеннолетия",
+    "nameKz": "Жетім балалар мен ата-анасының қамқорлығынсыз қалған балалар, сондай-ақ кәмелеттік жасқа дейін ата-анасынан айырылған немесе ата-анасының қамқорлығынсыз қалған жастар қатарындағы Қазақстан Республикасының азаматтары үшін",
+    "nameEn": "For orphaned children and children left without parental care, as well as young citizens of the Republic of Kazakhstan, who lost their parents or have been left without parental care before achieving age of majority ",
+    "type": 2,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 40,
+    "nameRu": "Для граждан Республики Казахстан из числа сельской молодежи, переселяющихся в регионы, определенные Правительством Республики Казахстан",
+    "nameKz": "Қазақстан Республикасының Үкіметі айқындаған өңірлерге қоныс аударатын, ауыл жастары қатарындағы Қазақстан Республикасының азаматтары үшін",
+    "nameEn": "For citizens of the Republic of Kazakhstan from among rural youth, relocated to the regions, defined by the Government of the Republic of Kazakhstan ",
+    "type": 2,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 73,
+    "nameRu": "Для лиц из западных, густонаселенных и вновь образованных регионов",
+    "nameKz": "Батыс, халқы тығыз орналасқан және жаңадан құрылған өңірлерден келген адамдар үшін",
+    "nameEn": "For persons from Western, densely populated or newly formed regions",
+    "type": 2,
+    "updateDate": "2023-09-01T18:33:51.225"
+  },
+  {
+    "id": 45,
+    "nameRu": "Для граждан Республики Казахстан, выслуживших установленный срок срочной воинской службы по призыву",
+    "nameKz": "Шақыру бойынша мерзімді әскери қызметтің белгіленген мерзімін өткерген, Қазақстан Республикасының азаматтары үшін",
+    "nameEn": "For citizens of the Republic of Kazakhstan, who had completed established period of compulsory military service",
+    "type": 2,
+    "updateDate": "2024-11-11T09:46:08"
+  },
+  {
+    "id": 14,
+    "nameRu": "Лица, приравненные по льготам и гарантиям к участникам Великой Отечественной войны",
+    "nameKz": "Жеңілдіктері және кепілдіктері бойынша Ұлы Отан соғысының қатысушыларына теңестірілген тұлғалар",
+    "nameEn": "Persons equated to participants of the Great Patriotic War in terms of allowances and guarantees ",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 15,
+    "nameRu": "Лица, приравненные по льготам и гарантиям к инвалидам Великой Отечественной войны",
+    "nameKz": "Жеңілдіктері және кепілдіктері бойынша Ұлы Отан соғысының мүгедектеріне теңестірілген тұлғалар",
+    "nameEn": "Persons equated to persons who became disabled as a result of participation in the Great Patriotic War in terms of allowances and guarantees ",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 31,
+    "nameRu": "Инвалид по зрению",
+    "nameKz": "Көру қабілеті нашар",
+    "nameEn": "Visually impaired",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 46,
+    "nameRu": "Для детей (в том числе усыновленных, удочеренных, совместно проживающих пасынков и падчериц) сотрудников специальных государственных и правоохранительных органов, органов гражданской защиты, государственной фельдъегерской службы, военнослужащих, а также медицинских работников, погибших (умерших) или которым установлена инвалидность в результате увечья (ранения, травмы, контузии), полученного при исполнении служебных обязанностей",
+    "nameKz": "Арнаулы мемлекеттік және құқық қорғау органдары, азаматтық қорғау органдары, мемлекеттік фельдъегерлік қызмет қызметкерлерінің, әскери қызметшілердің, сондай-ақ қызметтік міндеттерді орындау барысында мертігу (жаралану, жарақаттану, контузия алу) салдарынан қаза тапқан (қайтыс болған) немесе мүгедектік белгіленген медициналық қызметкерлердің балалары (оның ішінде асырап алынған, бірге тұратын өгей ұлдары мен өгей қыздары) үшін",
+    "nameEn": "For children (including adopted, co-habituating stepsons and stepdaughters) of the employees of special state and law enforcement authorities, civil defense authorities, state courier service, military servicemen, as well as healthcare employees, who had perished (died) or received disabilities as a result of mutilation (wound, trauma, contusion), received while performing service duties",
+    "type": 2,
+    "updateDate": "2024-11-14T11:48:16"
+  },
+  {
+    "id": 16,
+    "nameRu": "Другие категории лиц, приравненных по льготам и гарантиям к участникам войны",
+    "nameKz": "Жеңілдіктері және кепілдіктері бойынша соғыс қатысушыларына теңестірілген тұлғалардың басқа санаттары",
+    "nameEn": "Other categories of people equated to participants of the Great Patriotic War in terms of allowances and guarantees ",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 4,
+    "nameRu": "Инвалид 3 группы",
+    "nameKz": "3 топ мүгедегі",
+    "nameEn": "disabled, 3 group",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 12,
+    "nameRu": "Многодетные семьи",
+    "nameKz": "Көп балалы отбасы",
+    "nameEn": "families with many children",
+    "type": 1,
+    "updateDate": "2021-06-30T15:10:45.287"
+  },
+  {
+    "id": 19,
+    "nameRu": "дети-инвалиды",
+    "nameKz": "мүгедек-балалар",
+    "nameEn": "disabled children",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 10,
+    "nameRu": "Лицо из числа участников ликвидации последствий катастрофы на Чернобыльской АЭС в 1988-1989 годах, эвакуированных (самостоятельно выехавших) из зон отчуждения и отселения в Республику Казахстан, включая детей, которые на день эвакуации находились во внутриутробном состоянии",
+    "nameKz": "1988-1989 жыдардағы Чернобыль АЭС апатының зардаптарын жоюға қатысқандардың, оқшаулау аймағынан Қазақстан Республикасына көшірілгендердің (өздігінен көшкендердің) қатарындағы тұлға, көшіру күні анасының құрсағындағы балалармен қоса",
+    "nameEn": "A participant of the liquidation of the aftermath of the Chernobyl nuclear power plant disaster in 1988-1989, evacuated (or individually left) from the exclusion and resettlement zones to the Republic of Kazakhstan, including children who were in an intrauterine state on the day of evacuation",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 44,
+    "nameRu": "Для детей из семей, воспитывающих детей с инвалидностью с детства, лиц с инвалидностью первой или второй группы.",
+    "nameKz": "Бала кезінен мүгедектігі бар балаларды тәрбиелеп отырған отбасылардағы балалар, бірінші немесе екінші топ мүгедектігі бар адамдар үшін.",
+    "nameEn": "For children from families raising lifelong disabled children, disabled persons of groups I and II.",
+    "type": 2,
+    "updateDate": "2020-11-16T11:23:20"
+  },
+  {
+    "id": 101,
+    "nameRu": "Неполная семья",
+    "nameKz": "Толық емес отбасы",
+    "nameEn": "Single-parent family",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 102,
+    "nameRu": "Отец инвалид",
+    "nameKz": "Әкесі мүгедек",
+    "nameEn": "Disabled father",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 103,
+    "nameRu": "Мать инвалид",
+    "nameKz": "Анасы мүгедек",
+    "nameEn": "Disabled mother",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 7,
+    "nameRu": "Член семьи военнослужащих, погибших (умерших) при прохождении воинской службы в мирное время, семьи сотрудников органов внутренних дел, погибших при исполнении служебных обязанностей",
+    "nameKz": "Бейбіт уақытта әскери қызмет өту кезінде қаза тапқан (қайтыс болған) әскери қызметшілердің, қызметтік міндеттерін орындау кезінде қаза тапқан ішкі істер органдары қызметкерлерінің отбасы мүшесі",
+    "nameEn": "A member of a family of military personnel who died in combat (deceased) during military service in peacetime; family of employees of internal affairs bodies killed while servicing on state active duty",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 13,
+    "nameRu": "Жертва политических репрессий, лицо, пострадавшее от политических репрессий, имеющее инвалидность или являющиеся пенсионерами",
+    "nameKz": "Саяси қуғын-сүргін құрбаны, саяси қуғын-сүргіндерден зардап шеккен, мүгелектігі бар тұлға немесе зейнеткерлер болып табылатын тұлға",
+    "nameEn": "Victim of political repression, a person who has suffered from political repression, has a disability, or is a pensioner",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 20,
+    "nameRu": "без опекуна",
+    "nameKz": " қамқоршысы жоқ",
+    "nameEn": "without a guardian",
+    "type": 1,
+    "updateDate": "2021-06-30T15:00:24.335"
+  },
+  {
+    "id": 17,
+    "nameRu": "Сирота",
+    "nameKz": "Жетім",
+    "nameEn": "Orphan",
+    "type": 1,
+    "updateDate": "2021-06-30T15:02:00.914"
+  },
+  {
+    "id": 8,
+    "nameRu": "Член семьи погибших при ликвидации последствий катастрофы на Чернобыльской АЭС и других радиационных катастроф и аварий на объектах гражданского или военного назначения",
+    "nameKz": "Чернобыль АЭС апатының және азаматтық немесе әскери нысандардағы басқа да радиациялық апаттардың зардаптарын жою кезінде қаза тапқандардың отбасы мүшесі",
+    "nameEn": "A member of the family of those died in the liquidation of the Chernobyl disaster aftermath and other radiation disasters and accidents at civilian or military facilities",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45"
+  },
+  {
+    "id": 21,
+    "nameRu": "воспитанник детских домов",
+    "nameKz": "Балалар үйінің тәрбиеленушілері",
+    "nameEn": "inmates of orphanages",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 34,
+    "nameRu": "Сирота под опекой",
+    "nameKz": "Қамқорлықтағы жетім",
+    "nameEn": "The orphan under foster care",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 27,
+    "nameRu": "По утере кормильца",
+    "nameKz": "Асыраушысынан айырылған",
+    "nameEn": "Loss of the breadwinner",
+    "type": 1,
+    "updateDate": "2021-07-02T11:25:28.668"
+  },
+  {
+    "id": 26,
+    "nameRu": "Дети матерей-одиночек",
+    "nameKz": "Жалғыз басты аналардың балалары",
+    "nameEn": "Children of single mothers",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 32,
+    "nameRu": "Инвалид по слуху",
+    "nameKz": "Есту қабілеті нашар",
+    "nameEn": "Hearing impaired",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 11,
+    "nameRu": "Многодетная мать",
+    "nameKz": "Көп балалы ана",
+    "nameEn": "Mother of multiple children",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 42,
+    "nameRu": "Для детей из семей, в которых воспитывается четыре и более несовершеннолетних детей",
+    "nameKz": "Кәмелеттік жасқа толмаған төрт және одан да көп бала тәрбиеленетін отбасылардағы балалар үшін",
+    "nameEn": "For children from families raising four or more underage children",
+    "type": 2,
+    "updateDate": "2020-11-16T11:23:20"
+  },
+  {
+    "id": 6,
+    "nameRu": "Член cемьи военнослужащих, погибших (пропавших без вести) или умерших вследствие ранения, контузии, увечья, заболевания, полученных в период боевых действий в Афганистане или в других государствах, в которых велись боевые действия",
+    "nameKz": "Ауғанстандағы немесе жауынгерлік іс-қимылдар жүргізілген басқа мемлекеттердегі жауынгерлік іс-қимылдар кезінде алған жарақат, контузия, зақым, сырқат салдарынан қаза тапқан (хабарсыз кеткен) немесе қайтыс болған әскери қызметшілердің отбасы мүшесі",
+    "nameEn": "A member of a family of military personnel who died in combat (missing) or died as a result of injury, concussion, mutilation, illness received during the military activities in Afghanistan or other countries ",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 9,
+    "nameRu": "Член семьи умерших вследствие лучевой болезни или умерших инвалидов, а также граждан, смерть которых в установленном порядке связана с воздействием катастрофы на Чернобыльской АЭС и других радиационных катастроф и аварий на объектах гражданского или военного назначения и ядерных испытаний",
+    "nameKz": "Сәуле ауруы салдарынан қайтыс болғандардың немесе қайтыс болған мүгедектердің, сондай-ақ Чернобыль АЭС апатының және азаматтық немесе әскери нысандардағы басқа да радиациялық апаттардың және ядролық сынақтардың әсеріне байланысты қайтыс болған азаматтардың отбасы мүшесі",
+    "nameEn": "A member of a family of those who died due to radiation sickness or deceased persons with disabilities, as well as citizens whose death, following the established procedure, is associated with the impact of the Chernobyl nuclear power plant disaster or other radiation accidents, civilian or military facilities accidents, and nuclear tests",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 30,
+    "nameRu": "Обучающийся из малообеспеченной семьи",
+    "nameKz": "Білім алушы күнкөрісі төмен отбасыдан",
+    "nameEn": "The student from needy family",
+    "type": 1,
+    "updateDate": "2020-11-16T14:11:45.7015"
+  },
+  {
+    "id": 43,
+    "nameRu": "Для детей из числа неполных семей, имеющих данный статус не менее трех лет",
+    "nameKz": "Аталмыш статусқа кемінде үш жыл ие, толық емес отбасылар қатарындағы балалар үшін",
+    "nameEn": "For children from single parent families, which have this status for at least three years",
+    "type": 2,
+    "updateDate": "2020-11-16T11:23:20"
+  }
+]
