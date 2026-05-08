@@ -114,6 +114,7 @@
 | [TFW-9](tasks/TFW-9__education_programs_sync/) | Инструкция по синхронизации Реестра ОП | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [TFW-10](tasks/TFW-10__resolve_education_programs_tech_debt/) | Разрешение техдолга по Реестру ОП (TD-21 — TD-25) | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [TFW-11](tasks/TFW-11__accreditation_data_import_definition/) | Импорт данных по аккредитации из ЕПВО | 📝 HL_DRAFT | ✅ | ⬜ | — | ⬜ | ⬜ |
+| [TFW-12](tasks/TFW-12__transcripts_payload/) | Структура Payload и SQL View для Транскриптов | ✅ DONE | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 
 > Statuses: ⬜ TODO → 🔵 HL → 🟡 TS → 🟠 ONB → 🟢 RF → 🔍 REV → ✅ DONE | ❌ BLOCKED

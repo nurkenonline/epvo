@@ -28,5 +28,6 @@
 | TD-24 | TFW-9 RF obs. #4 | Low | `KNOWLEDGE.md` | Нет раздела §2.x для "Реестра образовательных программ". Нужно добавить сводку правил (classifier, prof_caf_id) | ✅ Resolved (TFW-10) |
 | TD-25 | TFW-9 RF obs. #5 | Low | `RF_TFW-4.B` §3 | Сущность названа `EducationProgram`, но её фактический API typeCode = `SPECIALIZATIONS` | ✅ Resolved (TFW-10) |
 | TD-26 | TFW-10 RF obs. | Low | OpenAPI spec | Swagger Inconsistency: SPECIALIZATIONS fields and FK keys are wrongly documented in OpenAPI v3 | → backlog (TFW-10) |
+| TD-27 | TFW-12 ONB Risk | Med | `sur_doc.txt` | Сущность `deletedtranscript` для выпускников и отчисленных не покрыта контрактом. Требуется отдельная задача на проектирование её Payload и View. | → backlog (TFW-12) |
 
 > Added by REVIEW files during task lifecycle. See `.tfw/workflows/docs.md`.
