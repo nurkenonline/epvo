@@ -1,0 +1,2 @@
+216: | groupTypeId | int32 | | Тип группы/практики (→ GroupType) |
+222: **FK-зависимости:** `Student`, `PracticeContract`, `GroupType`

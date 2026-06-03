@@ -1,0 +1,52 @@
+[2023-08-14T08:36:38] Даулет: institutionId  integer($int32)
+icDepartmentId  integer($int32)
+domesticHighSchoolName  string
+domesticHighSchoolProfession  string
+certificateSeries  string
+awardedDate  string($date)
+hasCreativeExam  boolean
+specialExamProvided  boolean
+specialExamAdmission  boolean
+domesticHighSchoolType  integer($int32)
+interviewProtocolId  integer($int32)
+trilingualEducation  boolean
+inNationalStudentLeague  boolean
+studiedForeignLangId  string
+intergovernmentalGrant  boolean
+publicAuthorityGrant  integer($int32)
+benefitQuotaId  integer($int32)
+addEntranceExamAdmission  integer($int32)
+addEntranceExamDate  string($date-time)
+fhighSchool  string
+fhighSchoolProfession  string
+================================================================================
+[2024-06-17T12:47:30] Евгений: Здравствуйте, изменил academicDegreeBaAwarded=true для DBA в specializations. Потому что серия генерировалась не правильная.
+Но теперь получили ошибку "Не заполнено поле количество освоенных кредитов". Но форму обучения не меняли. и для PHD дипломы до этого генерировались с тем же количеством кредитов
+================================================================================
+[2024-06-21T12:13:26] Anastassiya Manoylenko: Для МВА в specialisations.academic_degree_ba_awarded должно true стоять. У нас в этом была ошибка, может и Вам поможет.
+================================================================================
+[2024-06-26T09:49:48] Бахтияр: training_directions_id.professions, academic_degree_ba_awarded.specializations -обязательные поля для заполнения
+================================================================================
+[2024-07-31T15:16:04] Бахтияр: для МВA Магистрант профильного направления указывается поле academic_degree_ba_awarded.specializations - true 
+по форме обучения данный студент у вас обучается на Магистрант по научно-педагогическому направлению  academic_degree_ba_awarded.specializations - false
+================================================================================
+[2024-10-15T11:16:22] Anastassiya Manoylenko: Добрый день!
+По ЦД.Диплом подскажите где искать следующие поля для заполнения:
+graduates.templatecode
+graduates.awarded_degreekz
+graduates.awarded_degreeru
+graduates.awarded_qualificationkz
+graduates.awarded_qualificationru
+center_kato.nameru
+
+В сваггере таких нет.
+================================================================================
+[2024-10-15T11:26:47] Бахтияр: graduates.awarded_degreekz
+graduates.awarded_degreeru - Присужденная академческая степень
+graduates.awarded_qualificationkz
+graduates.awarded_qualificationru - Присужденная квалификация
+================================================================================
+[2025-10-02T14:19:45] Эмиль: Это graduates.awardedqualificationkz?
+================================================================================
+[2025-10-02T14:21:01] Айдар Буранбаев: graduates.awarded_qualificationkz
+================================================================================
